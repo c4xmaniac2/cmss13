@@ -1,18 +1,18 @@
 {
-	"map_name": "Amicalola Salvage Yard",
+    "map_name": "Amicalola Salvage Yard",
     "short_name": "Salvage Yard",
-	"map_path": "map_files/Scrapyard",
-	"map_file": "scrapyard.dmm",
+    "map_path": "map_files/Scrapyard",
+    "map_file": "scrapyard.dmm",
     "webmap_url": "NewVaradero",
 
     "weather_holder": "/datum/weather_ss_map_holder/big_red",
     "survivor_types": [
         "/datum/equipment_preset/survivor/forecon/standard"
     ],
-	"synth_survivor_types": [
+    "synth_survivor_types": [
         "/datum/equipment_preset/synth/survivor/forecon"
     ],
-	"CO_survivor_types": [
+    "CO_survivor_types": [
         "/datum/equipment_preset/survivor/forecon/major"
     ],
     "defcon_triggers": [
@@ -25,7 +25,7 @@
     "survivor_message": "You are on LV-272, Aimicalola Salvage Yard owned by North Georgia Salvage, a WY Subsidiary. 2 weeks ago an EEV crashed into the southern pump controller, a few days later people started going missing. Then the monsters started appearing. You were among the last few survivors fighting the monsters, and after an ambush destroying the promenade you wiped out most of the monsterous demons at the cost of most of you. Food and supplies have run low. You must venture out. You must survive.",
     "announce_text": "Sierra, Hotel, Indigo, Tango. This is Joe Godson, manager of the Aimicalola Salvage Yard. We are currently not accepting salvage, merchants, or tenders. Please divert all shipments to our sister yard on LV-567. UA Riot teams, CMB reinforcements, or better requested. This broadcast will repeat avery 6 hours.",
     "map_item_type": "/obj/item/map/lv522_map",
-	"monkey_types": [
+    "monkey_types": [
         "yiren",
         "monkey"
     ],
@@ -38,7 +38,7 @@
         "xeno_hive_delta": 0
     },
     "camouflage": "classic",
-	"gamemodes": [
+    "gamemodes": [
         "Distress Signal",
         "Hunter Games",
         "Hive Wars",

@@ -11,7 +11,7 @@
 	var/fire_stacks = 1
 
 /turf/open/floor/lava/is_weedable()
-    return NOT_WEEDABLE
+	return NOT_WEEDABLE
 
 /turf/open/floor/lava/New()
 	. = ..()
