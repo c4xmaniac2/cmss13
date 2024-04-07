@@ -19,7 +19,6 @@
 
 /obj/effect/alien/egg/Initialize(mapload, hive)
 	. = ..()
-	create_egg_triggers()
 	if (hive)
 		hivenumber = hive
 
@@ -28,6 +27,10 @@
 
 	set_hive_data(src, hivenumber)
 	update_icon()
+	if(status == EGG_BURST || status == EGG_DESTROYED)
+		return
+
+	create_egg_triggers()
 	addtimer(CALLBACK(src, PROC_REF(Grow)), rand(EGG_MIN_GROWTH_TIME, EGG_MAX_GROWTH_TIME))
 
 /obj/effect/alien/egg/proc/forsaken_handling()
@@ -277,6 +280,14 @@
 		return
 	GLOB.hive_datum[hivenumber].spawn_as_hugger(user, src)
 	Burst(FALSE, FALSE, null, TRUE)
+
+/obj/effect/alien/egg/broken
+    status = EGG_DESTROYED
+    icon_state = "Egg Exploded"
+
+/obj/effect/alien/egg/opened
+    status = EGG_BURST
+    icon_state = "Egg Opened"
 
 //The invisible traps around the egg to tell it there's a mob right next to it.
 /obj/effect/egg_trigger
