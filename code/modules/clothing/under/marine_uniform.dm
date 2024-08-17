@@ -649,6 +649,15 @@
 	icon_state = "mercenary_engineer_uniform"
 	worn_state = "mercenary_engineer_uniform"
 
+//=========================//Lasalle Bionational\\================================\\
+/obj/item/clothing/under/marine/veteran/lb
+	name = "\improper Lasalle Bionational Operator Fatigues"
+	desc = "A black-grey drab uniform woven from X-Silk. Designed to be comfortable but tough."
+	icon_state = "lb_uniform"
+	worn_state = "lb_uniform"
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi',
+	)
 
 ////// Civilians /////////
 

@@ -33,6 +33,7 @@
 #define MAP_RUNTIME "USS Runtime"
 #define MAP_LV522_CHANCES_CLAIM "LV-522 Chance's Claim" // Highpop Only
 #define MAP_NEW_VARADERO "New Varadero"//ice colony underground but as its own map
+#define MAP_SCRAPYARD "Amicalola Salvage Yard"
 #define MAP_CHINOOK "Chinook 91 GSO" //admin level
 
 #define GAMEMODE_WHISKEY_OUTPOST "Whiskey Outpost"
@@ -373,6 +374,9 @@
 #define WALL_DEVWALL "devwall"
 #define WALL_DEVWALL_R "devwall_r"
 #define WALL_HUNTERSHIP "metal"//DMI specific name
+#define WALL_SCRAPYARD "scrapyard_interior"
+#define WALL_SCRAPYARDR "scrapyard_interior_r"
+#define WALL_SCRAPYARD_ROCK "scrapyard_rock"
 
 //Defines for dropship weapon gimbals
 #define GIMBAL_LEFT -1

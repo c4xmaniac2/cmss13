@@ -156,7 +156,7 @@
 
 /obj/item/weapon/gun/pistol/b92fs
 	name = "\improper Beretta 92FS pistol"
-	desc = "A popular police firearm in the 20th century, often employed by hardboiled cops while confronting terrorists. A classic of its time, chambered in 9mm."
+	desc = "A popular firearm manufactured since the 20th century, it saw service in the United States Army, Marines, and in nearly every theater around the world. It might not have won two world wars, but it can win the fire fight you're about to enter."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/colony.dmi'
 	icon_state = "b92fs"
 	item_state = "b92fs"

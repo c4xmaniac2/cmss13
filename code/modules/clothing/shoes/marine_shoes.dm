@@ -80,6 +80,17 @@
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
 	spawn_item_type = /obj/item/attachable/bayonet
 
+/obj/item/clothing/shoes/marine/lb
+	name = "mercenary combat boots"
+	desc = "A pair of well polished boots with a light blue stripe on them."
+	icon_state = "lb_boots"
+	item_state = "lb_boots"
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
+	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_internaldamage = CLOTHING_ARMOR_HIGH
+	spawn_item_type = /obj/item/attachable/bayonet
+
 /obj/item/clothing/shoes/dress
 	name = "dress shoes"
 	desc = "Pre-polished fancy dress shoes. You can see your reflection in them."

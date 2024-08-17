@@ -161,6 +161,13 @@
 	armor_internaldamage = CLOTHING_ARMOR_ULTRAHIGH
 	unacidable = TRUE
 
+/obj/item/clothing/gloves/marine/veteran/lb
+	name = "\improper Lasalle Bionational Combat Gloves"
+	desc = "A pair of combat gloves made by Lasalle Bionational weaved from the highly durable X-Silk. It features reinforced knuckles, and are insulated against almost all electrical shocks."
+	icon_state = "lb_gloves"
+	item_state = "lb_gloves"
+	armor_melee = CLOTHING_ARMOR_VERYHIGH
+
 /obj/item/clothing/gloves/marine/dress
 	name = "dress gloves"
 	desc = "A pair of fashionable white gloves, worn by marines in dress."

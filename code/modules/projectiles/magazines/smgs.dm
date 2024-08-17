@@ -260,3 +260,17 @@
 	w_class = SIZE_SMALL
 	max_rounds = 48
 	gun_type = /obj/item/weapon/gun/smg/nailgun
+
+//-------------------------------------------------------
+//ML-5
+/obj/item/ammo_magazine/smg/ml5
+	name = "ML-5 Charge Pack"
+	desc = "A bulky battery pack used in the ML-5. These things are supposed to be reusable, but after the factory charge has been used up they just don't work the same."
+	default_ammo = /datum/ammo/bullet/smg/ml5
+	flags_magazine = AMMUNITION_CANNOT_REMOVE_BULLETS
+	caliber = "9x19mm"
+	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony.dmi'
+	icon_state = "ml5"
+	w_class = SIZE_MEDIUM
+	max_rounds = 40
+	gun_type = /obj/item/weapon/gun/smg/ml5

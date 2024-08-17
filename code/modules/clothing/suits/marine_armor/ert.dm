@@ -179,6 +179,24 @@
 	item_state_slots = list(WEAR_JACKET = "commando_armor")
 	unacidable = TRUE
 
+//===========================//DISTRESS\\================================\\
+//=======================================================================\\
+
+/obj/item/clothing/suit/storage/marine/veteran/lb
+	name = "\improper ECA-EX Rig"
+	desc = "The Enhanced Combat Rig - Extreme chest rig is made from the highly durable and lightweight X-Silk with triangular microscopic sewing patterns for intense ballistic protection. Only issued to high tier Lasalle Bionational security forces."
+	icon_state = "lb_armor"
+	item_state = "lb_armor"
+	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
+	armor_melee = CLOTHING_ARMOR_LOW
+	armor_bullet = CLOTHING_ARMOR_VERYHIGH
+	armor_energy = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
+	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS
+	uniform_restricted = list(/obj/item/clothing/under/marine/veteran/lb)
+	item_state_slots = list(WEAR_JACKET = "lb_armor")
 
 //===========================//DISTRESS\\================================\\
 //=======================================================================\\

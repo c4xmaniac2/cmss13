@@ -1471,4 +1471,22 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_LOW
 
+/obj/item/clothing/head/helmet/marine/veteran/lb
+	name = "\improper EIHCH-EX ballistic helmet"
+	desc = "The Enhanced Integrated Hud Combat Helmet Extreme is a light weight, highly durable combat helmet designed by Lasalle Bionational for use by its high tier security forces. It comes with an integrated gas mask with assisted breathing due to it's .1 micron filtration ability, and boasts 48 hours of duty life per filter."
+	icon_state = "lb_helm"
+	item_state = "lb_helm"
+	armor_melee = CLOTHING_ARMOR_LOW
+	armor_bullet = CLOTHING_ARMOR_VERYHIGH
+	armor_energy = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bio = CLOTHING_ARMOR_VERYHIGH
+
+/obj/item/clothing/head/helmet/marine/veteran/lb/lead
+	name = "\improper EIHCH-EXL ballistic helmet"
+	desc = "The Enhanced Integrated Hud Combat Helmet Extreme Leader is a light weight, highly durable combat helmet designed by Lasalle Bionational for use by its high tier security forces team leaders. It comes with an integrated gas mask with assisted breathing due to it's .1 micron filtration ability, and boasts 48 hours of duty life per filter. This helmet also offers an IFF strobe and an enhanced communications suite allowing their squad to keep comms up when things get dire."
+	icon_state = "lb_helm_tl"
+	item_state = "lb_helm_tl"
+	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
+
 #undef HELMET_GARB_RELAY_ICON_STATE

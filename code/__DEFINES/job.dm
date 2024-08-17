@@ -228,6 +228,12 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 
 #define CONTRACTOR_JOB_LIST list(JOB_CONTRACTOR, JOB_CONTRACTOR_ST, JOB_CONTRACTOR_MEDIC, JOB_CONTRACTOR_ENGI, JOB_CONTRACTOR_MG, JOB_CONTRACTOR_TL, JOB_CONTRACTOR_COV, JOB_CONTRACTOR_COVST, JOB_CONTRACTOR_COVMED, JOB_CONTRACTOR_COVENG, JOB_CONTRACTOR_COVTL)
 
+//----Lasalle Bionational----//
+#define JOB_LB "Lasalle Bionational Kill Team Member"
+#define JOB_LB_LEAD "Lasalle Bionational Kill Team Leader"
+
+#define JOB_LB_LIST list(JOB_LB, JOB_LB_LEAD)
+
 //-------- CMB --------//
 #define JOB_CMB "CMB Deputy"
 #define JOB_CMB_TL "CMB Marshal"

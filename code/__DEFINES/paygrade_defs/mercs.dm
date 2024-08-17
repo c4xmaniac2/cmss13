@@ -43,3 +43,10 @@
 
 /// VAI-L, Team Leader
 #define PAY_SHORT_VAI_L "VAI-L"
+
+//Lasalle Bionational
+//Standard Kill Team Member
+#define PAY_SHORT_LB_K1 "K-1"
+
+//Kill Team Leader
+#define PAY_SHORT_LB_K2 "K-2"

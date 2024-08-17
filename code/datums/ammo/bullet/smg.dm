@@ -145,3 +145,23 @@
 	penetration = ARMOR_PENETRATION_TIER_4
 	damage_falloff = DAMAGE_FALLOFF_TIER_6
 	scatter = SCATTER_AMOUNT_TIER_6
+
+/datum/ammo/bullet/smg/ml5
+	name = "armor-piercing laserbolt"
+	icon_state = "redtrac"
+	damage = 20
+	accurate_range = 5
+	effective_range_max = 7
+	penetration = ARMOR_PENETRATION_TIER_2
+	shell_speed = AMMO_SPEED_TIER_4
+	scatter = SCATTER_AMOUNT_TIER_3
+	accuracy = HIT_ACCURACY_TIER_2
+	damage_type = BURN
+	shrapnel_chance = 0
+	flags_ammo_behavior = AMMO_LASER
+	sound_override = 'sound/weapons/emitter2.ogg'
+
+/datum/ammo/bullet/smg/ml5/on_hit_mob(mob/target, obj/projectile/bullet)
+	..()
+	if(prob(10))
+		target.fire_act()

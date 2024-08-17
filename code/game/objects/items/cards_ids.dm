@@ -370,6 +370,8 @@
 	if(ishuman(user))
 		. += SPAN_NOTICE("It reads \"[registered_name] - [assignment] - [blood_type]\"")
 
+/obj/item/card/id/dogtag/lb
+	desc = "Dog tags belonging to an LB Security Forces Member"
 
 /obj/item/dogtag
 	name = "information dog tag"

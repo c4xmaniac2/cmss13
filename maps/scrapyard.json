@@ -3,7 +3,7 @@
     "short_name": "Salvage Yard",
     "map_path": "map_files/Scrapyard",
     "map_file": "scrapyard.dmm",
-    "webmap_url": "NewVaradero",
+    "webmap_url": "unit_testing",
 
     "weather_holder": "/datum/weather_ss_map_holder/big_red",
     "survivor_types": [

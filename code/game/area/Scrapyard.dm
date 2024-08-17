@@ -146,7 +146,6 @@
 	name = "Administration Communications Relay"
 	icon_state = "ass_line"
 	ceiling = CEILING_METAL
-	is_resin_allowed = FALSE
 
 //Outdoors areas
 /area/Scrapyard/outdoors/colony_streets
@@ -439,6 +438,8 @@
 	name = "J.P. McCollen AI Chambers"
 	icon_state = "quart"
 	ceiling = CEILING_METAL
+	is_resin_allowed = FALSE
+	resin_construction_allowed = FALSE
 
 /area/Scrapyard/indoors/cic/dorms
 	name = "Administration Dorms"
@@ -543,16 +544,16 @@
 
 //Chow Diamond
 /area/Scrapyard/indoors/chow
-	name = "Chow Hall"
+	name = "JR's Roadkill Bistro"
 	icon_state = "cafeteria"
 	ceiling = CEILING_UNDERGROUND_METAL_ALLOW_CAS
 
 /area/Scrapyard/indoors/chow/admin
-	name = "Admin Chow Hall"
+	name = "JR's Exclusive Roadkill Bistro"
 	icon_state = "blueold"
 
 /area/Scrapyard/indoors/chow/kitchen
-	name = "Chow Hall Kitchen"
+	name = "JR's Roadkill Kitchen"
 	icon_state = "kitchen"
 
 //Salvage Diamond

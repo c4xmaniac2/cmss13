@@ -42,6 +42,19 @@
 
 	var/time_to_dispel = 25 MINUTES
 
+/obj/effect/landmark/lv624/fog_blocker/rock
+	name = "Collapsing Rock"
+	icon_state = "solaris_rock"
+	icon = 'icons/turf/walls/solaris/solaris.dmi'
+	desc = "Rubble is falling out of this pile of rock. Will probably fall away completely sooner or later."
+	time_to_dispel = 60 MINUTES
+
+/obj/effect/landmark/lv624/fog_blocker/rock/short
+	name = "Collapsing Rock"
+	icon_state = "solaris_rock"
+	icon = 'icons/turf/walls/solaris/solaris.dmi'
+	desc = "Rubble is falling out of this pile of rock. Will probably fall away completely sooner or later."
+	time_to_dispel = 15 MINUTES
 /obj/effect/landmark/lv624/fog_blocker/short
 	time_to_dispel = 15 MINUTES
 
