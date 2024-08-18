@@ -264,13 +264,44 @@
 //-------------------------------------------------------
 //ML-5
 /obj/item/ammo_magazine/smg/ml5
-	name = "ML-5 Charge Pack"
+	name = "\improper ML-5 Charge Pack"
 	desc = "A bulky battery pack used in the ML-5. These things are supposed to be reusable, but after the factory charge has been used up they just don't work the same."
 	default_ammo = /datum/ammo/bullet/smg/ml5
-	flags_magazine = AMMUNITION_CANNOT_REMOVE_BULLETS
+	flags_magazine = NO_FLAGS
 	caliber = "9x19mm"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/colony.dmi'
 	icon_state = "ml5"
 	w_class = SIZE_MEDIUM
 	max_rounds = 40
 	gun_type = /obj/item/weapon/gun/smg/ml5
+
+	///Whether it is using overcharged ammo
+	var/is_overcharged = FALSE
+	///typepath of the regular ammo
+	var/datum/ammo/standard_ammo_type = /datum/ammo/bullet/smg/ml5
+	///typepath of the alternate ammo
+	var/datum/ammo/overcharged_ammo_type = /datum/ammo/bullet/smg/ml5/overcharged
+	///how much ammo the overcharged ammo type will cost
+	var/overcharged_ammo_cost = 4
+
+/obj/item/ammo_magazine/smg/ml5/Initialize(mapload, spawn_empty)
+	. = ..()
+	if(is_overcharged)
+		default_ammo = overcharged_ammo_type
+
+/obj/item/ammo_magazine/smg/ml5/get_examine_text(mob/user)
+	. = ..()
+	if(!is_overcharged)
+		return
+	. += SPAN_NOTICE("[src] is set to overcharged ammo.")
+
+/obj/item/ammo_magazine/smg/ml5/proc/change_ammo_mode(mob/user, silent)
+	if(user && !silent)
+		to_chat(user, SPAN_NOTICE("You set [src] to [is_overcharged ? "standard" : "overcharged"] ammunition."))
+
+	if(is_overcharged)
+		default_ammo = standard_ammo_type
+		is_overcharged = FALSE
+		return
+	default_ammo = overcharged_ammo_type
+	is_overcharged = TRUE

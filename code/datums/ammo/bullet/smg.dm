@@ -160,8 +160,14 @@
 	shrapnel_chance = 0
 	flags_ammo_behavior = AMMO_LASER
 	sound_override = 'sound/weapons/emitter2.ogg'
+	///chance of the bullet burning the mob
+	var/ignition_probability = 10
 
 /datum/ammo/bullet/smg/ml5/on_hit_mob(mob/target, obj/projectile/bullet)
 	..()
-	if(prob(10))
+	if(prob(ignition_probability))
 		target.fire_act()
+
+/datum/ammo/bullet/smg/ml5/overcharged
+	name = "super special really cool ammo"
+	ignition_probability = 50
