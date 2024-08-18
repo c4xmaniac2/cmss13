@@ -8,6 +8,10 @@ SUBSYSTEM_DEF(ticker)
 
 	var/current_state = GAME_STATE_STARTUP //State of current round used by process()
 	var/force_ending = FALSE //Round was ended by admin intervention
+
+	/// If TRUE, there is no lobby phase, the game starts immediately.
+	var/start_immediately = FALSE
+
 	var/bypass_checks = FALSE //Bypass mode init checks
 	var/setup_failed = FALSE //If the setup has failed at any point
 	var/setup_started = FALSE
@@ -46,7 +50,7 @@ SUBSYSTEM_DEF(ticker)
 
 	var/totalPlayers = 0 //used for pregame stats on statpanel
 	var/totalPlayersReady = 0 //used for pregame stats on statpanel
-	var/tutorial_disabled = FALSE //zonenote
+	var/tutorial_disabled = FALSE
 
 /datum/controller/subsystem/ticker/Initialize(timeofday)
 	load_mode()
@@ -65,7 +69,7 @@ SUBSYSTEM_DEF(ticker)
 			if(isnull(start_at))
 				start_at = time_left || world.time + (CONFIG_GET(number/lobby_countdown) * 10)
 			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 2, margin_bottom = 0, html = SPAN_ROUNDHEADER("Welcome to the pre-game lobby of [CONFIG_GET(string/servername)]!"))
-			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 0, html = SPAN_ROUNDBODY("Please, setup your character and select ready. Game will start in [round(time_left / 10) || CONFIG_GET(number/lobby_countdown)] seconds."))
+			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 0, html = SPAN_ROUNDBODY("Please, setup your character and select ready. Game will start in [floor(time_left / 10) || CONFIG_GET(number/lobby_countdown)] seconds."))
 			SEND_GLOBAL_SIGNAL(COMSIG_GLOB_MODE_PREGAME_LOBBY)
 			current_state = GAME_STATE_PREGAME
 			fire()
@@ -80,6 +84,10 @@ SUBSYSTEM_DEF(ticker)
 				var/mob/new_player/player = i
 				if(player.ready) // TODO: port this  == PLAYER_READY_TO_PLAY)
 					++totalPlayersReady
+
+			if(start_immediately)
+				time_left = 0
+
 			if(time_left < 0 || delay_start)
 				return
 
@@ -116,6 +124,7 @@ SUBSYSTEM_DEF(ticker)
 /datum/controller/subsystem/ticker/proc/request_start()
 	if(current_state == GAME_STATE_PREGAME)
 		time_left = 0
+		delay_start = FALSE
 
 	// Killswitch if hanging or interrupted
 	if(SSnightmare.stat != NIGHTMARE_STATUS_DONE)
@@ -338,8 +347,8 @@ SUBSYSTEM_DEF(ticker)
 
 /datum/controller/subsystem/ticker/proc/GetTimeLeft()
 	if(isnull(SSticker.time_left))
-		return round(max(0, start_at - world.time) / 10)
-	return round(time_left / 10)
+		return floor(max(0, start_at - world.time) / 10)
+	return floor(time_left / 10)
 
 
 /datum/controller/subsystem/ticker/proc/SetTimeLeft(newtime)
