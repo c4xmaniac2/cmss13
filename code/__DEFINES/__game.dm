@@ -378,7 +378,7 @@
 #define WALL_DEVWALL "devwall"
 #define WALL_DEVWALL_R "devwall_r"
 #define WALL_HUNTERSHIP "metal"//DMI specific name
-#define WALL_AIRCORE "aiwall"
+#define WALL_AICORE "aiwall"
 #define WALL_SCRAPYARD "scrapyard_interior"
 #define WALL_SCRAPYARDR "scrapyard_interior_r"
 #define WALL_SCRAPYARD_ROCK "scrapyard_rock"

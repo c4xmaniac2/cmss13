@@ -1,4 +1,9 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aad" = (
+/turf/open/gm/lava/side{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "aav" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
@@ -136,7 +141,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "acA" = (
 /obj/structure/cargo_container/arious/right,
@@ -257,6 +262,9 @@
 /obj/structure/platform_decoration,
 /turf/open/floor/plating,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
+"aeG" = (
+/turf/open/gm/lava/corner,
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "aeI" = (
 /obj/structure/platform{
 	dir = 4
@@ -440,8 +448,8 @@
 	},
 /area/Scrapyard/indoors/club)
 "aiD" = (
-/turf/open/floor/lava/single_intersection_direction{
-	dir = 4
+/turf/open/gm/lava/corner{
+	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "aiH" = (
@@ -697,7 +705,7 @@
 /obj/structure/platform_decoration{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "aom" = (
 /obj/structure/machinery/recharge_station,
@@ -1102,7 +1110,7 @@
 /obj/structure/platform_decoration{
 	dir = 6
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/single,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "avx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1351,6 +1359,10 @@
 	icon_state = "purple"
 	},
 /area/Scrapyard/indoors/dorms)
+"ayF" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/gm/lava/lpiece,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "ayG" = (
 /obj/item/stack/sheet/metal{
 	pixel_x = -7;
@@ -1413,7 +1425,7 @@
 	},
 /area/Scrapyard/indoors/sec)
 "azI" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -1421,8 +1433,8 @@
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/indoors/cic/pump2)
 "azU" = (
-/turf/open/floor/lava/side{
-	dir = 1
+/turf/open/gm/lava/corner{
+	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "aAd" = (
@@ -1738,7 +1750,9 @@
 	pixel_x = -16;
 	pixel_y = -53
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "aEW" = (
 /obj/structure/machinery/portable_atmospherics/powered/scrubber/huge/stationary,
@@ -1776,7 +1790,7 @@
 /obj/structure/platform_decoration{
 	dir = 9
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "aFF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1911,9 +1925,7 @@
 	},
 /area/Scrapyard/indoors/medbay/cmo)
 "aJb" = (
-/turf/open/floor/lava/single_end{
-	dir = 4
-	},
+/turf/open/gm/lava/side,
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "aJo" = (
 /turf/closed/shuttle/dropship1/transparent{
@@ -2341,7 +2353,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "aRd" = (
 /obj/structure/machinery/door/airlock/almayer/command/reinforced{
@@ -2807,7 +2819,7 @@
 /turf/open/floor,
 /area/Scrapyard/indoors/dorms)
 "bbc" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -3003,7 +3015,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/mech)
 "beX" = (
-/turf/open/floor/lava/single_intersection_direction{
+/turf/open/gm/lava/single_intersection_direction{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -3011,7 +3023,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "bfi" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
@@ -3222,7 +3234,7 @@
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
 "bkc" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
@@ -3838,6 +3850,15 @@
 	icon_state = "whitegreen"
 	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"bwO" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/barricade/handrail/wire,
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "bwQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -3897,7 +3918,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
 "byP" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 4
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -4089,7 +4110,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "bDP" = (
 /obj/structure/surface/table/almayer,
@@ -4580,11 +4601,6 @@
 	dir = 8
 	},
 /area/Scrapyard/indoors/chow/kitchen)
-"bMo" = (
-/turf/open/floor/lava/single_end{
-	dir = 1
-	},
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "bMx" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -5115,7 +5131,7 @@
 /area/Scrapyard/indoors/s_diamond/maintwest)
 "bYs" = (
 /obj/item/clothing/suit/storage/marine/light/reporter,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "bYM" = (
 /obj/structure/closet/secure_closet/engineering_welding,
@@ -5295,6 +5311,14 @@
 	icon_state = "panelscorched"
 	},
 /area/Scrapyard/indoors/dorms)
+"cbD" = (
+/obj/structure/disposalpipe/down{
+	dir = 4
+	},
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "cbF" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
@@ -5343,6 +5367,9 @@
 	icon_state = "damaged2"
 	},
 /area/Scrapyard/indoors/cic/checkpoint2)
+"ccm" = (
+/turf/open/gm/lava/single_intersection_direction,
+/area/Scrapyard/indoors/misc/uppcamp)
 "ccL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet{
@@ -5488,6 +5515,11 @@
 /obj/structure/cargo_container/hd/left,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
+"cgd" = (
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "cgr" = (
 /obj/item/trash/wy_chips_pepper,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -5572,7 +5604,7 @@
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "ciT" = (
 /obj/effect/landmark/lv624/fog_blocker/short,
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -5792,7 +5824,7 @@
 	},
 /area/Scrapyard/landing_zone_2/store)
 "cnC" = (
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 8
 	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
@@ -5969,15 +6001,15 @@
 /turf/open/floor/wood,
 /area/Scrapyard/landing_zone_1/atc)
 "cqs" = (
-/turf/open/floor/lava/lpiece{
-	dir = 4
+/turf/open/gm/lava/single_end{
+	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "cqv" = (
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "cqA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6263,11 +6295,6 @@
 /obj/item/trash/sosjerky,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/misc/bodyshop)
-"cvB" = (
-/turf/open/floor/lava/single_end{
-	dir = 8
-	},
-/area/Scrapyard/indoors/misc/TWEcamp)
 "cvI" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -6361,7 +6388,7 @@
 /area/Scrapyard/indoors/sw_diamond/pump)
 "cwH" = (
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "cwM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6371,10 +6398,6 @@
 	icon_state = "whitegreen"
 	},
 /area/Scrapyard/indoors/medbay)
-"cwY" = (
-/obj/structure/machinery/computer/gravity_control_computer,
-/turf/open/floor/plating,
-/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "cwZ" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/decal/cleanable/dirt,
@@ -6382,7 +6405,7 @@
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "cxd" = (
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/mainteast)
 "cxg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7069,6 +7092,16 @@
 	icon_state = "darkblue2"
 	},
 /area/Scrapyard/indoors/cic/power)
+"cKh" = (
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/south_west_street)
+"cKu" = (
+/turf/open/gm/lava/single_middle{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "cKC" = (
 /obj/structure/platform{
 	dir = 8;
@@ -7237,6 +7270,11 @@
 	dir = 8
 	},
 /area/Scrapyard/indoors/chow)
+"cOr" = (
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "cOu" = (
 /turf/open/floor/plating{
 	icon_state = "panelscorched"
@@ -7362,8 +7400,8 @@
 /turf/open/shuttle/elevator/grating,
 /area/Scrapyard/indoors/club/elevators)
 "cPC" = (
-/turf/open/floor/lava/side{
-	dir = 8
+/turf/open/gm/lava/lpiece{
+	dir = 1
 	},
 /area/Scrapyard/indoors/misc/TWEcamp)
 "cPN" = (
@@ -7436,11 +7474,6 @@
 	icon_state = "whiteyellowcorner"
 	},
 /area/Scrapyard/indoors/sec/prison)
-"cQK" = (
-/turf/open/floor/lava/corner{
-	dir = 1
-	},
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "cQM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/random/barrel{
@@ -7591,7 +7624,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "cUh" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -7673,6 +7706,9 @@
 	icon_state = "asteroidplating"
 	},
 /area/Scrapyard/indoors/sw_diamond/tool)
+"cVl" = (
+/turf/open/gm/lava/single,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "cVn" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/plating,
@@ -7828,6 +7864,11 @@
 	icon_state = "damaged2"
 	},
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
+"cYO" = (
+/turf/open/gm/lava/corner{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/north_west_street)
 "cYQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -7956,7 +7997,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "dcd" = (
 /obj/structure/closet/secure_closet/cargotech,
@@ -8063,6 +8104,12 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/landing_zone_1/storage)
+"deT" = (
+/obj/structure/platform,
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "dff" = (
 /obj/structure/barricade/wooden{
 	dir = 8
@@ -8234,6 +8281,9 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/indoors/cic/checkpoint2)
+"diG" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "diH" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -8295,7 +8345,7 @@
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "djU" = (
 /obj/structure/prop/invuln/lattice_prop,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "dka" = (
 /obj/structure/disposalpipe/segment{
@@ -8419,6 +8469,11 @@
 /obj/structure/largecrate,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/club/poker)
+"dnA" = (
+/turf/open/gm/lava/side{
+	dir = 4
+	},
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "dnE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/objective_landmark/close,
@@ -8435,11 +8490,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/cic/power)
-"doa" = (
-/turf/open/floor/lava/side{
-	dir = 4
-	},
-/area/Scrapyard/oob)
 "doN" = (
 /obj/item/prop/flower_vase/redwhiteflowers{
 	pixel_y = 7;
@@ -8447,6 +8497,15 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/misc/graveyard)
+"doX" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/obj/structure/barricade/handrail/wire,
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "dpm" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
 	welded = 1;
@@ -8484,7 +8543,7 @@
 /turf/open/floor,
 /area/Scrapyard/indoors/club)
 "dpE" = (
-/turf/open/floor/lava/single_middle,
+/turf/open/gm/lava/single_middle,
 /area/Scrapyard/indoors/s_diamond/maintwest)
 "dpG" = (
 /obj/structure/surface/table/almayer{
@@ -8529,9 +8588,6 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/sec)
-"dqi" = (
-/turf/open/floor/lava/lpiece,
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "dqm" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo,
 /obj/effect/decal/cleanable/dirt,
@@ -8976,7 +9032,7 @@
 	},
 /area/Scrapyard/indoors/se_diamond/chow)
 "dAx" = (
-/turf/open/floor/lava/corner{
+/turf/open/gm/lava/corner{
 	dir = 4
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -9073,7 +9129,7 @@
 	pixel_y = -53
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "dCn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9247,6 +9303,9 @@
 	icon_state = "whitegreen"
 	},
 /area/Scrapyard/indoors/medbay/morgue)
+"dEP" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/indoors/misc/uppcamp)
 "dER" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor{
@@ -9401,11 +9460,6 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/misc/graveyard)
-"dJF" = (
-/turf/open/floor/lava/corner{
-	dir = 1
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "dJJ" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 30
@@ -9625,6 +9679,11 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/medbay/surgery)
+"dNl" = (
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/indoors/misc/TWEcamp)
 "dNm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/extinguisher_cabinet{
@@ -9789,6 +9848,11 @@
 	icon_state = "cement_sunbleached13"
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
+"dQS" = (
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/north_west_street)
 "dQV" = (
 /obj/item/prop/helmetgarb/spent_buckshot,
 /turf/open/floor/plating,
@@ -9914,7 +9978,7 @@
 	pixel_y = 7;
 	pixel_x = 1
 	},
-/turf/open/floor/lava/single,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "dSW" = (
 /obj/structure/fence,
@@ -10095,10 +10159,15 @@
 	},
 /area/Scrapyard/indoors/medbay/cmo)
 "dWc" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
+"dWh" = (
+/turf/open/gm/lava/side{
+	dir = 4
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "dWn" = (
 /obj/structure/machinery/computer/telecomms/server,
 /obj/effect/decal/cleanable/dirt,
@@ -10360,6 +10429,11 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/sw_diamond/pump)
+"ech" = (
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "ecA" = (
 /turf/open/floor{
 	dir = 6;
@@ -10391,7 +10465,7 @@
 	dir = 8;
 	layer = 3.1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "eds" = (
 /obj/structure/machinery/door/airlock/almayer/generic,
@@ -10658,7 +10732,7 @@
 /obj/structure/platform{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "eiM" = (
 /obj/structure/largecrate/random/barrel,
@@ -10736,9 +10810,6 @@
 /obj/item/alienjar{
 	pixel_y = 11;
 	pixel_x = 6
-	},
-/obj/item/XenoBio/Resin{
-	pixel_x = -6
 	},
 /obj/item/trash/candle{
 	pixel_y = 2;
@@ -10877,8 +10948,13 @@
 /turf/open/floor,
 /area/Scrapyard/landing_zone_1)
 "enM" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
+"eoa" = (
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/south_street)
 "eod" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/clothing/under/color/orange,
@@ -11088,13 +11164,6 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
-"esw" = (
-/obj/structure/platform_decoration{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/lava,
-/area/Scrapyard/outdoors/colony_streets/lavapit3)
 "esG" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 30
@@ -11187,6 +11256,12 @@
 	dir = 8
 	},
 /area/Scrapyard/indoors/chow/kitchen)
+"eud" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "eug" = (
 /obj/item/trash/chunk{
 	pixel_x = 4;
@@ -11282,7 +11357,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
 "ewv" = (
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -12039,7 +12114,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "eKf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12053,6 +12128,12 @@
 /obj/structure/blocker/forcefield/vehicles,
 /turf/open/floor,
 /area/Scrapyard/indoors/salvage)
+"eKk" = (
+/obj/structure/filtration/coagulation{
+	icon_state = "2,7"
+	},
+/turf/open/gm/lava,
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "eKm" = (
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/floor/carpet/edge{
@@ -12067,7 +12148,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "eKE" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -12316,6 +12397,9 @@
 /obj/structure/cargo_container/trijent/right/alt,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
+"ePV" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "ePW" = (
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/landing_zone_2/vip)
@@ -12431,6 +12515,9 @@
 /obj/structure/dispenser,
 /turf/open/floor/plating,
 /area/Scrapyard/landing_zone_1)
+"eRT" = (
+/obj/structure/lattice,
+/area/Scrapyard/outdoors/colony_streets/centralwalk)
 "eSg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -12492,6 +12579,12 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic/ceoffice)
+"eTa" = (
+/obj/structure/platform,
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "eTm" = (
 /obj/structure/reagent_dispensers/watertank{
 	layer = 2.9
@@ -13223,6 +13316,13 @@
 	},
 /turf/closed/wall/scrapyard/rock,
 /area/Scrapyard/oob)
+"ffH" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "ffO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
@@ -13241,7 +13341,7 @@
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "ffR" = (
-/turf/open/floor/lava/lpiece,
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "fge" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13454,9 +13554,7 @@
 	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "fkL" = (
-/turf/open/floor/lava/lpiece{
-	dir = 4
-	},
+/turf/open/gm/lava/corner,
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "fkQ" = (
 /obj/effect/alien/egg/opened,
@@ -13622,7 +13720,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "fnI" = (
 /obj/structure/machinery/computer/aifixer,
@@ -13810,7 +13908,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "frP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13934,11 +14032,6 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
-"ftV" = (
-/turf/open/floor/lava/corner{
-	dir = 8
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "fua" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -13993,14 +14086,16 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "fvV" = (
 /obj/structure/filtration/coagulation{
 	icon_state = "7,6"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 8
+	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "fwl" = (
 /obj/structure/window_frame/solaris/reinforced,
@@ -14046,7 +14141,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "fxb" = (
 /obj/structure/toilet,
@@ -14116,11 +14211,6 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
-"fyu" = (
-/turf/open/floor/lava/side{
-	dir = 8
-	},
-/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "fyv" = (
 /turf/open/floor,
 /area/Scrapyard/indoors/se_diamond/pumpcontrol2)
@@ -14276,6 +14366,9 @@
 	},
 /turf/open/floor,
 /area/Scrapyard/landing_zone_1)
+"fBu" = (
+/turf/open/gm/lava/single_end,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "fBE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/random/barrel,
@@ -14373,6 +14466,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/sw_diamond/reactor)
+"fDZ" = (
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "fEa" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -14477,7 +14575,7 @@
 /area/Scrapyard/landing_zone_2/store)
 "fGl" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "fGu" = (
 /obj/structure/machinery/landinglight/ds1/delayone,
@@ -14552,6 +14650,10 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor,
 /area/Scrapyard/indoors/chow)
+"fHS" = (
+/obj/structure/platform_decoration,
+/turf/open/gm/lava,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "fHW" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
@@ -14698,10 +14800,14 @@
 	},
 /area/Scrapyard/indoors/medbay)
 "fLl" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
 "fLm" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/corner{
+	dir = 4
+	},
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "fLn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -14939,13 +15045,13 @@
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "fPg" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
 "fPn" = (
 /obj/structure/platform,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "fPu" = (
 /obj/structure/surface/rack,
@@ -15124,6 +15230,9 @@
 	icon_state = "white"
 	},
 /area/Scrapyard/indoors/medbay/morgue)
+"fSx" = (
+/turf/open/gm/lava/single,
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "fSA" = (
 /obj/structure/cargo_container/arious/left,
 /turf/open/floor/plating,
@@ -15269,6 +15378,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/Scrapyard/indoors/se_diamond/chow)
+"fVb" = (
+/turf/open/gm/lava/lpiece,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "fVe" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/disposal,
@@ -15559,7 +15671,7 @@
 	},
 /area/Scrapyard/indoors/cic/pump2)
 "gbq" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
@@ -15713,9 +15825,6 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/sw_diamond/pump)
-"gey" = (
-/turf/open/floor/lava/single_middle,
-/area/Scrapyard/oob)
 "geB" = (
 /obj/structure/machinery/door/airlock/almayer/medical/colony{
 	dir = 2;
@@ -15780,7 +15889,7 @@
 	dir = 5;
 	layer = 3.1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "gfX" = (
 /turf/open/floor{
@@ -15882,7 +15991,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "giI" = (
 /obj/item/trash/used_stasis_bag,
@@ -15956,7 +16065,7 @@
 /area/Scrapyard/indoors/chow/admin)
 "gjy" = (
 /obj/structure/platform_decoration,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "gjG" = (
 /obj/structure/machinery/landinglight{
@@ -16143,7 +16252,7 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 8
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -16234,7 +16343,7 @@
 /obj/structure/platform_decoration{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "goS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16592,7 +16701,7 @@
 	dir = 1
 	},
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 8
 	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
@@ -17003,6 +17112,11 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outdoors/colony_streets/south_street)
+"gDA" = (
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "gDL" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating{
@@ -17045,7 +17159,7 @@
 /turf/open/asphalt,
 /area/Scrapyard/indoors/cic/checkpoint1)
 "gEK" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -17105,7 +17219,7 @@
 /area/Scrapyard/indoors/cic/pump2)
 "gFJ" = (
 /obj/structure/prop/dam/drill,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
 "gFL" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -17255,11 +17369,6 @@
 "gIk" = (
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/misc/synthshop)
-"gIs" = (
-/turf/open/floor/lava/lpiece{
-	dir = 8
-	},
-/area/Scrapyard/oob)
 "gIA" = (
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/indoors/cic/foyer)
@@ -17389,10 +17498,12 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "gKW" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/side{
+	dir = 8
+	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "gLg" = (
 /obj/structure/prop/brazier/campfire{
@@ -17555,7 +17666,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
 "gNp" = (
-/turf/open/floor/lava/single_intersection_direction{
+/turf/open/gm/lava/single_intersection_direction{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -17639,7 +17750,7 @@
 	},
 /area/Scrapyard/indoors/cic/pump2)
 "gOd" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 8
 	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
@@ -17789,13 +17900,13 @@
 /area/Scrapyard/outside/telecomm3)
 "gQd" = (
 /obj/structure/platform,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "gQt" = (
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -18602,7 +18713,9 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "2,7"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "hjT" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -19350,7 +19463,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "hvL" = (
 /obj/structure/curtain/shower{
@@ -19533,7 +19646,6 @@
 	pixel_x = 14;
 	pixel_y = 14
 	},
-/obj/item/handcuffs,
 /turf/open/floor{
 	dir = 1;
 	icon_state = "red"
@@ -19596,6 +19708,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
+"hAL" = (
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "hBp" = (
 /obj/structure/prop/ice_colony/ground_wire{
 	dir = 1;
@@ -19682,7 +19799,7 @@
 /area/Scrapyard/indoors/sw_diamond/pump)
 "hCO" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "hCP" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -20004,6 +20121,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/Scrapyard/landing_zone_2/vip)
+"hIL" = (
+/turf/open/gm/lava/corner,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "hIS" = (
 /obj/item/limb/hand/l_hand{
 	pixel_y = 13;
@@ -20108,7 +20228,9 @@
 	},
 /area/Scrapyard/indoors/cic/hall1)
 "hKQ" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "hKZ" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/glass/colony{
@@ -20213,7 +20335,9 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava/single_end,
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "hMV" = (
 /obj/structure/surface/rack,
@@ -20233,7 +20357,7 @@
 	dir = 4;
 	layer = 2.7
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "hNh" = (
 /obj/structure/cargo_container/watatsumi/right,
@@ -20357,7 +20481,7 @@
 	pixel_y = 8;
 	pixel_x = -10
 	},
-/turf/open/floor/lava/single,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "hPb" = (
 /obj/structure/machinery/light{
@@ -20368,6 +20492,12 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/sec)
+"hPe" = (
+/obj/structure/filtration/coagulation{
+	icon_state = "3,7"
+	},
+/turf/open/gm/lava,
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "hPq" = (
 /obj/structure/machinery/telecomms/processor,
 /obj/effect/decal/cleanable/dirt,
@@ -21169,6 +21299,14 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/outside/telecomm2)
+"idw" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "S"
+	},
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "idG" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/effect/landmark/objective_landmark/close,
@@ -21215,6 +21353,12 @@
 	icon_state = "platebot"
 	},
 /area/Scrapyard/indoors/cic/power)
+"iex" = (
+/obj/structure/platform_decoration,
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "ieH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -21319,9 +21463,7 @@
 	},
 /area/Scrapyard/indoors/cic/power)
 "igu" = (
-/turf/open/floor/lava/corner{
-	dir = 8
-	},
+/turf/open/gm/lava/single_corners,
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "igF" = (
 /obj/structure/girder{
@@ -21570,6 +21712,11 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/indoors/misc/reservoir)
+"ilF" = (
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "ilJ" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -21968,7 +22115,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
 "itE" = (
 /obj/structure/machinery/camera/autoname{
@@ -22146,7 +22293,7 @@
 /obj/structure/platform_decoration{
 	layer = 3.1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/corner,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "iwd" = (
 /obj/structure/cargo_container/arious/leftmid{
@@ -22269,6 +22416,13 @@
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"iza" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "izj" = (
 /obj/item/stack/rods,
 /turf/open/floor{
@@ -22323,6 +22477,11 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
+"iAt" = (
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/south_street)
 "iAA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -22520,7 +22679,7 @@
 	},
 /area/Scrapyard/indoors/cic/ceoffice)
 "iDQ" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "iDT" = (
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_door,
@@ -22698,6 +22857,9 @@
 	icon_state = "purple"
 	},
 /area/Scrapyard/indoors/dorms)
+"iGk" = (
+/turf/open/gm/lava/lpiece,
+/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "iGp" = (
 /obj/structure/platform{
 	dir = 1
@@ -22711,7 +22873,7 @@
 /obj/structure/platform_decoration{
 	dir = 9
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "iGF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -22761,11 +22923,6 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
-"iHi" = (
-/turf/open/floor/lava/side{
-	dir = 8
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "iHt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -23038,7 +23195,7 @@
 	},
 /obj/structure/lattice,
 /obj/item/weapon/gun/rifle/l42a/abr40,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "iMz" = (
 /obj/structure/machinery/deployable/barrier,
@@ -23047,6 +23204,9 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/cic/checkpoint1)
+"iMN" = (
+/turf/open/gm/lava/lpiece,
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "iNe" = (
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "thermite";
@@ -23121,15 +23281,12 @@
 "iOA" = (
 /obj/structure/platform,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "iOM" = (
 /obj/effect/decal/cleanable/blood/xtracks,
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/indoors/s_diamond/mainteast)
-"iPm" = (
-/turf/open/floor/lava/single_intersection_direction,
-/area/Scrapyard/oob)
 "iPQ" = (
 /obj/item/trash/buritto,
 /obj/effect/decal/cleanable/dirt,
@@ -23284,7 +23441,7 @@
 	dir = 4;
 	layer = 2.7
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "iTJ" = (
 /obj/item/stack/sheet/wood{
@@ -23467,7 +23624,7 @@
 	dir = 6;
 	layer = 3.1
 	},
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 1
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -23631,6 +23788,11 @@
 /obj/structure/foamed_metal,
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
+/area/Scrapyard/indoors/sw_diamond/pump)
+"jaN" = (
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "jaR" = (
 /obj/structure/window/framed/solaris/reinforced,
@@ -23935,9 +24097,6 @@
 "jhK" = (
 /turf/open/floor,
 /area/Scrapyard/indoors/sec/det)
-"jhM" = (
-/turf/closed/wall/scrapyard/rock,
-/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jhP" = (
 /obj/structure/transmitter/colony_net{
 	dir = 4;
@@ -24066,7 +24225,9 @@
 /obj/structure/platform_decoration{
 	dir = 6
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jiZ" = (
 /obj/structure/machinery/power/terminal,
@@ -24178,7 +24339,7 @@
 /area/Scrapyard/indoors/cic/panick)
 "jkW" = (
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "jkZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -24438,9 +24599,6 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/sw_diamond/pump)
-"joq" = (
-/turf/open/floor/lava/side,
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "jor" = (
 /obj/structure/largecrate/random,
 /obj/effect/decal/cleanable/dirt,
@@ -24450,14 +24608,6 @@
 /obj/structure/fence,
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outside/telecomm3)
-"joC" = (
-/obj/structure/prop/ice_colony/dense/planter_box/hydro{
-	density = 0;
-	desc = "A self-cooling control pump used to move lava between different holding pens.";
-	name = "Lava pump-head"
-	},
-/turf/open/floor/plating,
-/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "joK" = (
 /obj/structure/platform{
 	dir = 1
@@ -24509,11 +24659,6 @@
 	icon_state = "stan25"
 	},
 /area/Scrapyard/indoors/salvage)
-"jpH" = (
-/turf/open/floor/lava/single_end{
-	dir = 4
-	},
-/area/Scrapyard/oob)
 "jpO" = (
 /obj/structure/machinery/power/reactor/colony{
 	name = "Reactor Turbine"
@@ -24701,6 +24846,10 @@
 	icon_state = "damaged2"
 	},
 /area/Scrapyard/indoors/medbay)
+"jtW" = (
+/obj/structure/platform_decoration,
+/turf/open/gm/lava/corner,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jtZ" = (
 /obj/structure/cargo_container/hd/mid/alt,
 /turf/open/floor/plating,
@@ -24717,7 +24866,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jug" = (
 /obj/structure/window/framed/solaris/reinforced,
@@ -24819,7 +24968,7 @@
 /turf/open/floor,
 /area/Scrapyard/indoors/sw_diamond/prep)
 "jvT" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -24950,6 +25099,11 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/south_street)
+"jzJ" = (
+/turf/open/gm/lava/corner{
+	dir = 1
+	},
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "jzO" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/effect/decal/cleanable/dirt{
@@ -25219,7 +25373,7 @@
 /turf/open/floor,
 /area/Scrapyard/landing_zone_1)
 "jFb" = (
-/turf/open/floor/lava/corner{
+/turf/open/gm/lava/corner{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -25332,6 +25486,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor,
 /area/Scrapyard/indoors/sw_diamond/work)
+"jGZ" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
+"jHa" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/gm/lava,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jHc" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -25541,10 +25706,6 @@
 	pixel_y = -6;
 	pixel_x = -11
 	},
-/obj/item/handcuffs{
-	pixel_y = 16;
-	pixel_x = 13
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 8
@@ -25703,7 +25864,7 @@
 /area/Scrapyard/landing_zone_2/store)
 "jMk" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava/lpiece,
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "jMp" = (
 /obj/structure/surface/table,
@@ -26230,6 +26391,11 @@
 	layer = 3
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
+"jVV" = (
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 5
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "jWl" = (
 /obj/item/ammo_magazine/pistol/m1911{
 	current_rounds = 0;
@@ -26258,6 +26424,14 @@
 /obj/effect/landmark/lv624/fog_blocker/short,
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
+"jWP" = (
+/obj/structure/platform,
+/obj/structure/disposalpipe/segment,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "jWU" = (
 /obj/structure/largecrate/random/case/double,
 /obj/structure/machinery/light{
@@ -26273,7 +26447,7 @@
 /area/Scrapyard/indoors/cic/pump1)
 "jWX" = (
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -26447,11 +26621,6 @@
 	icon_state = "warnwhite"
 	},
 /area/Scrapyard/indoors/dorms)
-"kaK" = (
-/turf/open/floor/lava/corner{
-	dir = 8
-	},
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "kaR" = (
 /obj/structure/cargo_container/grant/rightmid{
 	layer = 3.1;
@@ -26516,6 +26685,11 @@
 /obj/item/device/assembly/mousetrap/armed,
 /turf/open/floor,
 /area/Scrapyard/outside/telecomm2)
+"kcu" = (
+/turf/open/gm/lava/single_end{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/south_street)
 "kcx" = (
 /turf/open/asphalt/cement_sunbleached{
 	icon_state = "cement_sunbleached12"
@@ -26545,7 +26719,7 @@
 /obj/structure/platform{
 	layer = 3.1
 	},
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 4
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -26626,7 +26800,7 @@
 /area/Scrapyard/outside/telecomm2)
 "keH" = (
 /obj/effect/landmark/railgun_camera_pos,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "kfi" = (
 /turf/open/floor/plating,
@@ -26716,7 +26890,7 @@
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/misc/uppcamp)
 "khc" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/misc/TWEcamp)
 "khq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27452,6 +27626,11 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/sw_diamond/roffice)
+"kul" = (
+/turf/open/gm/lava/corner{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "kuo" = (
 /obj/structure/sign/poster/clf{
 	pixel_x = 32
@@ -27489,7 +27668,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "kuY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27894,10 +28073,6 @@
 /obj/structure/largecrate/random,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
-"kDk" = (
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/turf/closed/wall/scrapyard/rock,
-/area/Scrapyard/oob)
 "kDp" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27960,7 +28135,7 @@
 	dir = 8
 	},
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "kEe" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -28090,7 +28265,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "2,7"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "kGQ" = (
 /obj/effect/spawner/random/tool{
@@ -28165,6 +28340,9 @@
 	icon_state = "freezerfloor"
 	},
 /area/Scrapyard/indoors/cic/ceoffice)
+"kHK" = (
+/turf/open/gm/lava,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "kHL" = (
 /obj/item/prop/alien/hugger,
 /obj/structure/machinery/light{
@@ -28234,9 +28412,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
-"kJa" = (
-/turf/open/floor/lava/single_end,
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "kJc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -28676,7 +28851,7 @@
 	},
 /area/Scrapyard/landing_zone_2/store)
 "kQe" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "kQg" = (
 /obj/effect/alien/egg,
@@ -28684,6 +28859,11 @@
 	icon_state = "redcorner"
 	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"kQj" = (
+/turf/open/gm/lava/single_end{
+	dir = 8
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "kQo" = (
 /obj/structure/bed/chair/comfy/orange{
 	dir = 1
@@ -28902,7 +29082,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "kUG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29552,6 +29732,18 @@
 	icon_state = "darkblue2"
 	},
 /area/Scrapyard/indoors/cic)
+"lhK" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/platform_decoration{
+	dir = 6
+	},
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "lid" = (
 /turf/open/floor{
 	dir = 9;
@@ -29771,7 +29963,9 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "lns" = (
 /obj/structure/surface/table/almayer,
@@ -30607,6 +30801,9 @@
 /obj/structure/foamed_metal,
 /turf/open/asphalt,
 /area/Scrapyard/indoors/sw_diamond/pump)
+"lBp" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "lBt" = (
 /obj/structure/platform{
 	dir = 1
@@ -31128,7 +31325,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "lNA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31449,6 +31646,14 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/cic/pump1)
+"lTp" = (
+/obj/structure/filtration/coagulation{
+	icon_state = "1,2"
+	},
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "lTy" = (
 /obj/structure/cargo_container/trijent/left,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -31600,7 +31805,9 @@
 /area/Scrapyard/indoors/misc/uppcamp)
 "lVo" = (
 /obj/structure/platform,
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
 "lVD" = (
 /obj/item/weapon/gun/pistol/m1911{
@@ -31899,6 +32106,11 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/sec)
+"mbE" = (
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
+/area/Scrapyard/indoors/misc/uppcamp)
 "mbG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/blacklight{
@@ -31925,11 +32137,6 @@
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage/prep)
-"mbX" = (
-/turf/open/floor/lava/corner{
-	dir = 1
-	},
-/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "mcc" = (
 /obj/structure/closet/crate/supply,
 /obj/item/reagent_container/food/snacks/packaged_meal{
@@ -32247,7 +32454,7 @@
 	},
 /area/Scrapyard/indoors/dorms)
 "mhl" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -32336,6 +32543,11 @@
 	icon_state = "cement_sunbleached9"
 	},
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
+"mix" = (
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "miF" = (
 /turf/open/asphalt/cement_sunbleached{
 	icon_state = "cement_sunbleached9"
@@ -32479,11 +32691,6 @@
 	icon_state = "redfull"
 	},
 /area/Scrapyard/indoors/sec/vault)
-"mkX" = (
-/turf/open/floor/lava/single_end{
-	dir = 8
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "mlb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
@@ -32618,7 +32825,7 @@
 	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "mnV" = (
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -32901,11 +33108,6 @@
 	},
 /turf/open/floor,
 /area/Scrapyard/landing_zone_2)
-"mvf" = (
-/turf/open/floor/lava/lpiece{
-	dir = 1
-	},
-/area/Scrapyard/indoors/misc/TWEcamp)
 "mvi" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clothing/accessory/patch/upp{
@@ -32953,6 +33155,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/pumpcontrol2)
+"mwa" = (
+/turf/open/gm/lava/single_middle,
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "mwj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/surface/table/almayer,
@@ -33021,7 +33226,6 @@
 /area/Scrapyard/indoors/medbay)
 "mxo" = (
 /obj/structure/cargo_container/horizontal/blue/top,
-/turf/open/floor/lava,
 /area/Scrapyard/indoors/salvage)
 "mxq" = (
 /obj/structure/surface/table/almayer,
@@ -33036,6 +33240,11 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic)
+"mxt" = (
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "mxU" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -33185,7 +33394,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "mBx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33294,6 +33503,8 @@
 /obj/item/trash/popcorn,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/sw_diamond/pump)
+"mCX" = (
+/area/Scrapyard/outdoors/colony_streets/lavapit2)
 "mCY" = (
 /turf/open/floor/almayer{
 	icon_state = "tcomms"
@@ -33304,7 +33515,9 @@
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outside/telecomm3)
 "mDx" = (
-/turf/open/floor/lava/corner,
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 8
+	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "mDF" = (
 /obj/structure/blocker/invisible_wall,
@@ -33354,7 +33567,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "mEY" = (
 /obj/structure/pipes/vents,
@@ -33684,6 +33897,11 @@
 	icon_state = "asteroidplating"
 	},
 /area/Scrapyard/landing_zone_2)
+"mKH" = (
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "mKQ" = (
 /obj/effect/decal/cleanable/blood/drip,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -33730,7 +33948,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood/xeno,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "mLV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33849,7 +34067,7 @@
 	dir = 4;
 	layer = 2.7
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "mOc" = (
 /turf/closed/wall/scrapyard/reinforced,
@@ -33977,13 +34195,6 @@
 /area/Scrapyard/indoors/misc/TWEcamp)
 "mSd" = (
 /obj/structure/surface/table/almayer,
-/obj/item/handcuffs,
-/obj/item/handcuffs{
-	pixel_y = 6
-	},
-/obj/item/handcuffs{
-	pixel_y = 12
-	},
 /obj/item/weapon/baton{
 	pixel_x = 2;
 	pixel_y = 6
@@ -34556,7 +34767,7 @@
 "ndD" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava/corner,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "ndG" = (
 /obj/item/trash/pistachios,
@@ -34982,6 +35193,11 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic/ceoffice)
+"nmc" = (
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/south_street)
 "nmh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/bedroll{
@@ -35030,6 +35246,11 @@
 	},
 /turf/open/floor/grass,
 /area/Scrapyard/indoors/chow/admin)
+"nmR" = (
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "nne" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/weapon/gun/shotgun/type23{
@@ -35128,7 +35349,7 @@
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/indoors/dorms/comp)
 "npn" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/misc/uppcamp)
 "npo" = (
 /obj/structure/machinery/power/apc{
@@ -35569,11 +35790,6 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
 /area/Scrapyard/landing_zone_1/storage)
-"nzx" = (
-/turf/open/floor/lava/lpiece{
-	dir = 4
-	},
-/area/Scrapyard/oob)
 "nzA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/largecrate/random/barrel,
@@ -36052,6 +36268,11 @@
 	},
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"nKP" = (
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "nKR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/used_stasis_bag,
@@ -36086,11 +36307,6 @@
 /obj/effect/temp_visual/dir_setting/bloodsplatter/synthsplatter,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/misc/synthshop)
-"nLn" = (
-/turf/open/floor/lava/single_intersection_direction{
-	dir = 8
-	},
-/area/Scrapyard/oob)
 "nLq" = (
 /obj/structure/machinery/portable_atmospherics/powered/scrubber/huge/stationary{
 	layer = 2.9
@@ -36183,7 +36399,7 @@
 	},
 /area/Scrapyard/landing_zone_1)
 "nNx" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -36341,9 +36557,6 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/cic/power)
-"nRJ" = (
-/turf/open/floor/lava/single_end,
-/area/Scrapyard/oob)
 "nRU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -36457,7 +36670,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "2,7"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "nTV" = (
 /obj/structure/platform_decoration{
@@ -36613,7 +36826,7 @@
 /area/Scrapyard/indoors/chow/kitchen)
 "nXy" = (
 /obj/effect/landmark/lv624/fog_blocker/short,
-/turf/open/floor/lava/lpiece,
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "nXB" = (
 /turf/open/floor{
@@ -36860,11 +37073,6 @@
 	},
 /turf/open/floor/bluegrid,
 /area/Scrapyard/indoors/cic/panick)
-"odv" = (
-/turf/open/floor/lava/side{
-	dir = 1
-	},
-/area/Scrapyard/oob)
 "odK" = (
 /obj/structure/desertdam/decals/road_edge,
 /obj/structure/foamed_metal,
@@ -37012,6 +37220,10 @@
 	icon_state = "squareswood"
 	},
 /area/Scrapyard/indoors/misc/uppcamp)
+"ofL" = (
+/obj/structure/platform,
+/turf/open/gm/lava/single_middle,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "ofO" = (
 /obj/structure/prop/dam/drill{
 	icon_state = "thumper-on"
@@ -37098,9 +37310,6 @@
 	icon_state = "freezerfloor"
 	},
 /area/Scrapyard/indoors/cic/bath2)
-"ogM" = (
-/turf/open/floor/lava/corner,
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "ogU" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
@@ -37265,11 +37474,6 @@
 /obj/structure/cargo_container/watatsumi/right,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
-"ojW" = (
-/turf/open/floor/lava/lpiece{
-	dir = 1
-	},
-/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "okl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
@@ -37415,11 +37619,6 @@
 	},
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
-"omx" = (
-/turf/open/floor/lava/corner{
-	dir = 4
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "omG" = (
 /obj/structure/cargo_container/horizontal/blue/top,
 /turf/open/floor,
@@ -37454,7 +37653,7 @@
 	dir = 4;
 	pixel_x = -27
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "ong" = (
 /obj/effect/decal/cleanable/dirt,
@@ -37999,7 +38198,7 @@
 /turf/open/floor/light/yellow,
 /area/Scrapyard/indoors/club)
 "oxU" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -38079,6 +38278,11 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic/clroom)
+"oze" = (
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "ozm" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clothing/suit/storage/marine/veteran/pmc{
@@ -38478,6 +38682,11 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
+"oHg" = (
+/turf/open/gm/lava/corner{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "oHs" = (
 /obj/structure/surface/table/woodentable/poor,
 /obj/structure/machinery/computer/cameras/wooden_tv{
@@ -38898,9 +39107,6 @@
 	icon_state = "panelscorched"
 	},
 /area/Scrapyard/indoors/sw_diamond/pump)
-"oRl" = (
-/turf/open/floor/lava/lpiece,
-/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "oRr" = (
 /obj/structure/platform_decoration,
 /turf/open/floor/plating,
@@ -38916,9 +39122,6 @@
 /obj/structure/pipes/standard/manifold/hidden/green,
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/s_diamond/mainteast)
-"oRF" = (
-/turf/open/floor/lava/side,
-/area/Scrapyard/indoors/s_diamond/maintwest)
 "oRT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil/streak,
@@ -38971,7 +39174,7 @@
 	dir = 4;
 	layer = 2.7
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "oSY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39229,7 +39432,7 @@
 "oXY" = (
 /obj/structure/lattice,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "oXZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39370,9 +39573,6 @@
 	},
 /turf/open/floor/wood,
 /area/Scrapyard/indoors/medbay)
-"pbC" = (
-/turf/open/floor/lava/single_intersection_direction,
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "pbN" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -39424,7 +39624,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "3,7"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/side,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "pcm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39459,7 +39659,7 @@
 	},
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
 "pda" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/club)
 "pdm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39553,7 +39753,7 @@
 /area/Scrapyard/landing_zone_2)
 "pfq" = (
 /obj/structure/platform_decoration,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "pfu" = (
 /obj/structure/cargo_container/watatsumi/leftmid,
@@ -40535,7 +40735,7 @@
 /obj/structure/disposalpipe/down{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "pxX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41120,7 +41320,7 @@
 /obj/structure/platform_decoration{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "pJE" = (
 /obj/structure/pipes/standard/simple/hidden/green,
@@ -41194,11 +41394,6 @@
 /obj/structure/largecrate/random/secure,
 /turf/open/floor/plating,
 /area/Scrapyard/landing_zone_1/alt)
-"pKq" = (
-/turf/open/floor/lava/single_end{
-	dir = 8
-	},
-/area/Scrapyard/oob)
 "pKv" = (
 /obj/structure/machinery/ai_status_display{
 	pixel_y = 29;
@@ -41515,9 +41710,7 @@
 	},
 /area/Scrapyard/indoors/medbay)
 "pPP" = (
-/turf/open/floor/lava/side{
-	dir = 2
-	},
+/turf/open/gm/lava/side,
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "pPY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41625,7 +41818,7 @@
 	},
 /area/Scrapyard/indoors/cic/checkpoint1)
 "pRQ" = (
-/turf/open/floor/lava/side,
+/turf/open/gm/lava/side,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "pRT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41690,6 +41883,9 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/misc/TWEcamp)
+"pSM" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "pSQ" = (
 /obj/structure/surface/table/almayer,
 /obj/item/clothing/under/blackskirt{
@@ -41834,6 +42030,9 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"pWa" = (
+/turf/open/gm/lava/single_end,
+/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "pWc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/fueltank,
@@ -41886,6 +42085,11 @@
 "pXg" = (
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
+"pXj" = (
+/turf/open/gm/lava/corner{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "pXn" = (
 /obj/item/clothing/glasses/night/m42_night_goggles/upp,
 /obj/effect/decal/cleanable/blood/gibs/limb,
@@ -41988,7 +42192,7 @@
 /obj/structure/platform_decoration{
 	dir = 5
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/centralwalk)
 "pZx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -42084,7 +42288,7 @@
 /area/Scrapyard/landing_zone_2/bunk)
 "qcC" = (
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "qcD" = (
 /obj/structure/window/framed/solaris/reinforced,
@@ -42132,9 +42336,6 @@
 	icon_state = "redcorner"
 	},
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
-"qdi" = (
-/turf/open/floor/lava/side,
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "qdm" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
 	dir = 1
@@ -42208,7 +42409,7 @@
 /area/Scrapyard/indoors/sw_diamond/pump)
 "qeK" = (
 /obj/structure/platform,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "qeR" = (
 /obj/effect/decal/cleanable/dirt,
@@ -42440,9 +42641,7 @@
 	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "qjz" = (
-/turf/open/floor/lava/single_end{
-	dir = 4
-	},
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "qjE" = (
 /obj/structure/bed/chair{
@@ -42896,7 +43095,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "qrJ" = (
 /obj/structure/platform_decoration,
@@ -42906,7 +43105,7 @@
 	},
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "qrT" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "qrY" = (
 /turf/open/floor{
@@ -43412,7 +43611,9 @@
 /area/Scrapyard/oob)
 "qCA" = (
 /obj/structure/platform_decoration,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 1
+	},
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "qDz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -43780,7 +43981,7 @@
 /obj/structure/platform_decoration{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "qJu" = (
 /obj/structure/machinery/light,
@@ -43804,7 +44005,9 @@
 	},
 /area/Scrapyard/indoors/salvage/prep)
 "qJA" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "qJB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -44025,6 +44228,11 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/indoors/misc/bodyshop)
+"qNW" = (
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "qOg" = (
 /obj/structure/transmitter/colony_net{
 	dir = 4;
@@ -44280,7 +44488,7 @@
 /turf/open/floor,
 /area/Scrapyard/landing_zone_2)
 "qTr" = (
-/turf/open/floor/lava/corner{
+/turf/open/gm/lava/corner{
 	dir = 1
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -44584,11 +44792,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/Scrapyard/indoors/sw_diamond/pump)
-"raj" = (
-/turf/open/floor/lava/single_end{
-	dir = 1
-	},
-/area/Scrapyard/oob)
 "rap" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic,
 /turf/open/floor,
@@ -44628,7 +44831,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/club/kitchen)
 "rbl" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -44650,6 +44853,11 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic/hall1)
+"rbt" = (
+/turf/open/gm/lava/single_intersection_direction{
+	dir = 8
+	},
+/area/Scrapyard/indoors/s_diamond/maintwest)
 "rbw" = (
 /obj/structure/machinery/door/airlock/almayer/command/colony{
 	icon_state = "door_open"
@@ -44769,6 +44977,9 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/cic/foyer)
+"rdl" = (
+/turf/open/gm/lava/single_middle,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "rdq" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
@@ -44946,7 +45157,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "rgZ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -45168,6 +45379,9 @@
 	layer = 3
 	},
 /area/Scrapyard/indoors/sw_diamond/pump)
+"rma" = (
+/turf/open/gm/lava/corner,
+/area/Scrapyard/outdoors/colony_streets/north_west_street)
 "rmf" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -45384,6 +45598,12 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/cic/checkpoint1)
+"rqi" = (
+/obj/structure/platform,
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "rqk" = (
 /obj/structure/largecrate/random/case/small,
 /turf/open/floor/plating,
@@ -45455,7 +45675,7 @@
 /obj/structure/platform_decoration{
 	dir = 6
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "rra" = (
 /obj/item/circuitboard/airlock{
@@ -45495,7 +45715,7 @@
 	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "rrG" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -45751,9 +45971,6 @@
 	},
 /turf/open/gm/river,
 /area/Scrapyard/indoors/misc/reservoir)
-"rxf" = (
-/turf/open/floor/lava/lpiece,
-/area/Scrapyard/oob)
 "rxz" = (
 /obj/structure/surface/table/reinforced/cloth,
 /obj/item/device/flashlight/lamp/candelabra{
@@ -45766,11 +45983,6 @@
 	},
 /turf/open/floor/wood,
 /area/Scrapyard/indoors/se_diamond/chow)
-"rxC" = (
-/turf/open/floor/lava/side{
-	dir = 4
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "rxO" = (
 /obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal4"
@@ -45826,6 +46038,11 @@
 	icon_state = "dark2"
 	},
 /area/Scrapyard/indoors/cic/dorms)
+"ryQ" = (
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "rza" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -45930,7 +46147,7 @@
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/landing_zone_1)
 "rBy" = (
-/turf/open/floor/lava/single_intersection_direction{
+/turf/open/gm/lava/single_intersection_direction{
 	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -45994,7 +46211,7 @@
 	},
 /area/Scrapyard/landing_zone_2/bunk)
 "rDe" = (
-/turf/open/floor/lava/single_corners{
+/turf/open/gm/lava/single_corners{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -46148,8 +46365,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/Scrapyard/indoors/chow/admin)
+"rFX" = (
+/obj/structure/platform,
+/turf/open/gm/lava/lpiece{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/north_east_street)
 "rGd" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
 "rGe" = (
 /obj/structure/closet/secure_closet/medical_doctor,
@@ -46224,7 +46447,7 @@
 /obj/structure/platform_decoration{
 	dir = 9
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "rHt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -46397,9 +46620,6 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
-"rKp" = (
-/turf/open/floor/lava/corner,
-/area/Scrapyard/oob)
 "rKC" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -46504,7 +46724,9 @@
 /obj/structure/disposalpipe/down{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "rMr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -47201,7 +47423,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "rXC" = (
 /obj/structure/machinery/power/apc{
@@ -47308,7 +47530,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "rZR" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -47946,9 +48168,6 @@
 	icon_state = "asteroidplating"
 	},
 /area/Scrapyard/indoors/sw_diamond/tool)
-"sjY" = (
-/turf/open/floor/lava/side,
-/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "skf" = (
 /obj/structure/cargo_container/wy/mid,
 /turf/open/floor,
@@ -48113,7 +48332,7 @@
 /turf/closed/wall/scrapyard/rock,
 /area/Scrapyard/oob)
 "snl" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -48446,6 +48665,9 @@
 	},
 /turf/closed/wall/scrapyard/rock,
 /area/Scrapyard/oob)
+"srM" = (
+/turf/open/gm/lava,
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "srS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
@@ -48456,10 +48678,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "sss" = (
-/turf/open/floor/lava/corner{
+/turf/open/gm/lava/corner{
 	dir = 4
 	},
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
@@ -48864,11 +49086,6 @@
 	},
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/sw_diamond/pump)
-"szC" = (
-/turf/open/floor/lava/single_end{
-	dir = 4
-	},
-/area/Scrapyard/outdoors/colony_streets/south_west_street)
 "sAd" = (
 /obj/structure/inflatable/popped,
 /obj/effect/landmark/corpsespawner/miner,
@@ -48884,7 +49101,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "sAl" = (
 /obj/structure/prop/static_tank/water{
@@ -49349,6 +49566,11 @@
 /obj/structure/closet/toolcloset,
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
+"sJf" = (
+/turf/open/gm/lava/side{
+	dir = 8
+	},
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "sJs" = (
 /obj/structure/cargo_container/trijent/mid,
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -49387,7 +49609,7 @@
 /turf/open/floor/scrapyard,
 /area/Scrapyard/outdoors/colony_streets/north_east_street)
 "sKW" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "sKY" = (
 /obj/structure/platform{
@@ -49515,6 +49737,12 @@
 	icon_state = "red"
 	},
 /area/Scrapyard/indoors/cic/checkpoint1)
+"sME" = (
+/obj/structure/disposalpipe/down{
+	dir = 8
+	},
+/turf/open/gm/lava/single,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "sML" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light{
@@ -49695,7 +49923,7 @@
 	},
 /area/Scrapyard/landing_zone_2/bunk)
 "sQA" = (
-/turf/open/floor/lava/lpiece,
+/turf/open/gm/lava/lpiece,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "sQW" = (
 /obj/effect/decal/cleanable/dirt,
@@ -50065,7 +50293,7 @@
 /turf/closed/wall/scrapyard/scrapyard,
 /area/Scrapyard/indoors/cic/ceoffice)
 "sYe" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
@@ -50282,7 +50510,7 @@
 	desc = "A self-cooling control pump used to move lava between different holding pens.";
 	name = "Lava pump-head"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "taN" = (
 /turf/closed/shuttle/ert{
@@ -50382,6 +50610,9 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor/plating,
 /area/Scrapyard/outside/telecomm2)
+"tcZ" = (
+/turf/open/gm/lava/corner,
+/area/Scrapyard/indoors/sw_diamond/pump)
 "tdj" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
@@ -50429,7 +50660,7 @@
 /obj/structure/platform_decoration{
 	dir = 6
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "teE" = (
 /obj/structure/platform,
@@ -50752,7 +50983,7 @@
 	},
 /area/Scrapyard/indoors/cic/foyer)
 "tlo" = (
-/turf/open/floor/lava/corner,
+/turf/open/gm/lava/corner,
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "tlu" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -50783,6 +51014,9 @@
 	icon_state = "darkyellow2"
 	},
 /area/Scrapyard/indoors/cic/pump1)
+"tmc" = (
+/turf/open/gm/lava,
+/area/Scrapyard/outdoors/colony_streets/north_east_street)
 "tmo" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -50804,7 +51038,7 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/cic/hall1)
 "tmv" = (
-/turf/open/floor/lava/corner,
+/turf/open/gm/lava/corner,
 /area/Scrapyard/indoors/misc/TWEcamp)
 "tmA" = (
 /obj/structure/closet/secure_closet/engineering_welding,
@@ -50916,7 +51150,7 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "tqp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -51043,6 +51277,9 @@
 	icon_state = "darkblue2"
 	},
 /area/Scrapyard/indoors/cic)
+"tsC" = (
+/turf/open/gm/lava/lpiece,
+/area/Scrapyard/indoors/misc/uppcamp)
 "tsN" = (
 /obj/effect/landmark/lv624/fog_blocker/short,
 /turf/open/floor/plating,
@@ -51107,7 +51344,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
 	},
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -51175,7 +51412,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "1,2"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "tun" = (
 /turf/open/floor{
@@ -51232,7 +51469,7 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "tvi" = (
 /obj/structure/cargo_container/arious/rightmid,
@@ -51695,7 +51932,7 @@
 /obj/structure/platform{
 	layer = 3.1
 	},
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 1
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -51779,7 +52016,7 @@
 /obj/structure/platform{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "tHl" = (
 /obj/effect/decal/cleanable/dirt,
@@ -51794,7 +52031,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "7,6"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "tHB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -51825,7 +52062,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/side,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "tIq" = (
 /obj/structure/surface/table/almayer,
@@ -51896,6 +52133,11 @@
 	},
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/cic/pump2)
+"tJB" = (
+/turf/open/gm/lava/corner{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "tJD" = (
 /obj/structure/machinery/portable_atmospherics/powered/scrubber{
 	density = 0
@@ -51950,7 +52192,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "tKD" = (
 /obj/structure/barricade/handrail/wire,
@@ -52309,6 +52551,11 @@
 	icon_state = "whitegreen"
 	},
 /area/Scrapyard/indoors/medbay)
+"tRT" = (
+/turf/open/gm/lava/corner{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "tSp" = (
 /obj/item/storage/backpack/marine/engineerpack/upp{
 	pixel_y = 28;
@@ -52543,7 +52790,7 @@
 /area/Scrapyard/indoors/medbay)
 "tWD" = (
 /obj/structure/blocker/invisible_wall,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "tWF" = (
 /obj/structure/bed,
@@ -52591,8 +52838,8 @@
 	},
 /area/Scrapyard/indoors/medbay/surgery)
 "tXd" = (
-/turf/open/floor/lava/corner{
-	dir = 4
+/turf/open/gm/lava/lpiece{
+	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
 "tXi" = (
@@ -52856,11 +53103,11 @@
 /obj/structure/platform_decoration{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "ucB" = (
 /obj/structure/lattice,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit2)
 "ucQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -53046,11 +53293,6 @@
 	icon_state = "wood-broken6"
 	},
 /area/Scrapyard/indoors/se_diamond/chow)
-"ugM" = (
-/turf/open/floor/lava/lpiece{
-	dir = 1
-	},
-/area/Scrapyard/oob)
 "ugS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/girder,
@@ -53211,7 +53453,9 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/salvage)
 "ukE" = (
-/turf/open/floor/lava/lpiece,
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
 "ukH" = (
 /obj/effect/decal/cleanable/dirt,
@@ -53615,7 +53859,7 @@
 /obj/structure/platform,
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/green,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_middle,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "usE" = (
 /obj/structure/pipes/standard/simple/hidden/green{
@@ -53739,9 +53983,7 @@
 	},
 /area/Scrapyard/indoors/cic/wjs)
 "uvk" = (
-/turf/open/floor/lava/single_end{
-	dir = 1
-	},
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "uvn" = (
 /obj/structure/bed/chair,
@@ -53762,7 +54004,7 @@
 /turf/open/floor,
 /area/Scrapyard/indoors/cic/checkpoint2)
 "uvN" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -54020,6 +54262,11 @@
 	icon_state = "platingdmg2"
 	},
 /area/Scrapyard/indoors/sec)
+"uBL" = (
+/turf/open/gm/lava/corner{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/north_west_street)
 "uBT" = (
 /turf/open/floor/plating{
 	dir = 8;
@@ -54093,7 +54340,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "1,2"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "uDg" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -54403,7 +54650,7 @@
 	},
 /area/Scrapyard/indoors/cic/checkpoint2)
 "uJg" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 1
 	},
 /area/Scrapyard/indoors/misc/TWEcamp)
@@ -54728,7 +54975,7 @@
 /obj/structure/disposalpipe/down{
 	dir = 8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "uPL" = (
 /obj/structure/pipes/standard/manifold/hidden/green{
@@ -54969,7 +55216,7 @@
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/club/poker)
 "uWh" = (
-/turf/open/floor/lava/corner{
+/turf/open/gm/lava/corner{
 	dir = 8
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -55173,7 +55420,7 @@
 /area/Scrapyard/indoors/dorms)
 "uYS" = (
 /obj/item/clothing/suit/storage/marine/specialist,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "uZn" = (
 /obj/structure/cargo_container/horizontal/blue/bottom{
@@ -55262,6 +55509,11 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/misc/reservoir)
+"vai" = (
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "vao" = (
 /turf/closed/wall/mineral/sandstone/runed/decor,
 /area/Scrapyard/indoors/misc/uppcamp)
@@ -55374,7 +55626,7 @@
 /obj/structure/platform_decoration{
 	dir = 5
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "vcU" = (
 /obj/structure/machinery/shower{
@@ -55519,11 +55771,6 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/sw_diamond/tool)
-"vgf" = (
-/turf/open/floor/lava/corner{
-	dir = 1
-	},
-/area/Scrapyard/oob)
 "vgj" = (
 /obj/structure/pipes/vents,
 /turf/open/floor,
@@ -55802,7 +56049,7 @@
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "vlj" = (
 /obj/structure/platform_decoration,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "vlm" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -55814,8 +56061,8 @@
 /turf/open/floor/carpet,
 /area/Scrapyard/indoors/club/mafia)
 "vlB" = (
-/turf/open/floor/lava/single_intersection_direction{
-	dir = 8
+/turf/open/gm/lava/side{
+	dir = 1
 	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
 "vlC" = (
@@ -56017,7 +56264,6 @@
 /obj/structure/prop/resin_prop{
 	icon_state = "rack"
 	},
-/obj/item/handcuffs,
 /obj/item/clothing/head/helmet/riot,
 /turf/open/floor{
 	icon_state = "redcorner"
@@ -56121,6 +56367,12 @@
 	},
 /turf/open/asphalt,
 /area/Scrapyard/indoors/misc/reservoir)
+"vqp" = (
+/obj/structure/platform,
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/north_east_street)
 "vqy" = (
 /obj/structure/machinery/power/turbine{
 	layer = 3.1
@@ -56343,7 +56595,7 @@
 /turf/open/floor/plating/bare_catwalk,
 /area/Scrapyard/indoors/cic/pump1)
 "vur" = (
-/turf/open/floor/lava/side{
+/turf/open/gm/lava/side{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/south_east_street)
@@ -56428,7 +56680,7 @@
 /area/Scrapyard/indoors/salvage)
 "vxi" = (
 /obj/structure/platform,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "vxl" = (
 /obj/structure/shuttle/part/dropship1/nose_front_right{
@@ -56575,6 +56827,11 @@
 	},
 /turf/open/floor/sandstone/runed,
 /area/Scrapyard/indoors/misc/synthshop)
+"vAe" = (
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/south_east_street)
 "vAv" = (
 /obj/structure/morgue{
 	dir = 8
@@ -56644,7 +56901,7 @@
 /turf/open/asphalt,
 /area/Scrapyard/indoors/misc/bodyshop)
 "vBb" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/sw_diamond/reactor)
 "vBv" = (
 /obj/structure/machinery/compressor{
@@ -56749,7 +57006,7 @@
 	pixel_y = 2;
 	pixel_x = 17
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/oob)
 "vDu" = (
 /obj/structure/surface/table/almayer,
@@ -56999,11 +57256,6 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor,
 /area/Scrapyard/indoors/sec)
-"vJb" = (
-/turf/open/floor/lava/single_corners{
-	dir = 4
-	},
-/area/Scrapyard/outdoors/colony_streets/south_street)
 "vJg" = (
 /obj/item/trash/burger{
 	pixel_x = -17;
@@ -57217,7 +57469,7 @@
 /area/Scrapyard/landing_zone_2/store)
 "vNz" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "vND" = (
 /obj/effect/decal/cleanable/dirt,
@@ -57230,6 +57482,9 @@
 /obj/effect/decal/cleanable/blood/gibs/xeno,
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/sw_diamond/pump)
+"vNL" = (
+/turf/open/gm/lava/single_end,
+/area/Scrapyard/indoors/misc/uppcamp)
 "vNM" = (
 /obj/effect/landmark/objective_landmark/close,
 /turf/open/floor{
@@ -57304,7 +57559,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "vOQ" = (
 /obj/structure/disposalpipe/junction,
@@ -57320,7 +57575,7 @@
 /obj/structure/platform_decoration{
 	dir = 9
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "vOZ" = (
 /obj/structure/bed/chair{
@@ -57484,7 +57739,7 @@
 /obj/structure/platform_decoration{
 	dir = 10
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "vTp" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -57512,7 +57767,9 @@
 	},
 /area/Scrapyard/indoors/club/elevators)
 "vTy" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava/lpiece{
+	dir = 4
+	},
 /area/Scrapyard/indoors/s_diamond/maintwest)
 "vTz" = (
 /obj/structure/machinery/washing_machine{
@@ -57738,6 +57995,12 @@
 	icon_state = "freezerfloor"
 	},
 /area/Scrapyard/indoors/cic/clroom)
+"vXi" = (
+/obj/structure/platform_decoration,
+/turf/open/gm/lava/side{
+	dir = 4
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "vXr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/xeno,
@@ -58154,7 +58417,9 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava/side{
+	dir = 1
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "wfj" = (
 /obj/structure/surface/table/woodentable/poor,
@@ -58600,7 +58865,7 @@
 	},
 /area/Scrapyard/indoors/sec/det)
 "wpa" = (
-/turf/open/floor/lava/single_end{
+/turf/open/gm/lava/single_end{
 	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
@@ -58760,6 +59025,18 @@
 /obj/structure/inflatable,
 /turf/open/floor/scrapyard,
 /area/Scrapyard/indoors/misc/TWEcamp)
+"wtk" = (
+/obj/structure/platform,
+/obj/structure/platform{
+	dir = 4
+	},
+/obj/structure/platform_decoration{
+	dir = 6
+	},
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "wtm" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor{
@@ -58767,7 +59044,7 @@
 	},
 /area/Scrapyard/indoors/dorms)
 "wtn" = (
-/turf/open/floor/lava/lpiece{
+/turf/open/gm/lava/lpiece{
 	dir = 4
 	},
 /area/Scrapyard/indoors/sw_diamond/reactor)
@@ -58810,7 +59087,7 @@
 	pixel_y = -4;
 	pixel_x = -8
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "wuL" = (
 /obj/structure/filingcabinet/security,
@@ -58972,7 +59249,7 @@
 /turf/open/floor,
 /area/Scrapyard/indoors/sec)
 "wyG" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "wyO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -59051,6 +59328,12 @@
 	},
 /turf/open/floor/plating,
 /area/Scrapyard/indoors/se_diamond/store)
+"wBD" = (
+/obj/structure/blocker/invisible_wall,
+/turf/open/gm/lava/single_end{
+	dir = 1
+	},
+/area/Scrapyard/indoors/sw_diamond/pump)
 "wBH" = (
 /obj/structure/prop/wooden_cross{
 	desc = "Unknown WY PMC. Final words 'Counting all the assholes in the room, well I'm definitely not alone, I'm not alone.'"
@@ -59118,7 +59401,7 @@
 	},
 /area/Scrapyard/indoors/dorms)
 "wCR" = (
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "wCX" = (
 /obj/effect/landmark/wo_supplies/guns/common/m41a{
@@ -59185,7 +59468,7 @@
 	pixel_x = 31;
 	start_charge = 0
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/se_diamond/prep)
 "wDE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -59320,8 +59603,8 @@
 	},
 /area/Scrapyard/indoors/medbay/surgery)
 "wGo" = (
-/turf/open/floor/lava/single_intersection_direction{
-	dir = 5
+/turf/open/gm/lava/corner{
+	dir = 1
 	},
 /area/Scrapyard/outdoors/colony_streets/south_street)
 "wGr" = (
@@ -59482,7 +59765,7 @@
 	current_mag = null;
 	layer = 3.1
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit1)
 "wJF" = (
 /obj/effect/decal/cleanable/dirt,
@@ -59679,7 +59962,7 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 6
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit4)
 "wMW" = (
 /turf/open/floor{
@@ -59711,6 +59994,10 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/asphalt,
 /area/Scrapyard/indoors/misc/reservoir)
+"wNV" = (
+/obj/structure/platform,
+/turf/open/gm/lava,
+/area/Scrapyard/outdoors/colony_streets/north_east_street)
 "wNZ" = (
 /obj/structure/prop/almayer/computers/sensor_computer1,
 /obj/effect/decal/cleanable/dirt,
@@ -59974,11 +60261,6 @@
 	icon_state = "panelscorched"
 	},
 /area/Scrapyard/indoors/sw_diamond/roffice)
-"wSY" = (
-/turf/open/floor/lava/single_middle{
-	dir = 1
-	},
-/area/Scrapyard/oob)
 "wTa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/handrail/wire,
@@ -60202,6 +60484,11 @@
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/asphalt,
 /area/Scrapyard/outdoors/colony_streets/south_street)
+"wXV" = (
+/turf/open/gm/lava/side{
+	dir = 1
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "wYc" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -60308,7 +60595,7 @@
 /obj/structure/platform_decoration{
 	dir = 9
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "wZN" = (
 /obj/structure/platform_decoration{
@@ -60362,9 +60649,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/grass,
 /area/Scrapyard/indoors/chow/admin)
-"xae" = (
-/turf/open/floor/lava/side,
-/area/Scrapyard/oob)
 "xam" = (
 /obj/structure/platform{
 	dir = 8
@@ -60384,7 +60668,6 @@
 /obj/structure/platform_decoration{
 	dir = 5
 	},
-/turf/open/floor/lava,
 /area/Scrapyard/indoors/sw_diamond/pump)
 "xaQ" = (
 /obj/effect/decal/cleanable/dirt{
@@ -60558,8 +60841,8 @@
 /area/Scrapyard/indoors/misc/TWEcamp)
 "xdx" = (
 /obj/effect/landmark/lv624/fog_blocker/short,
-/turf/open/floor/lava/corner{
-	dir = 1
+/turf/open/gm/lava/lpiece{
+	dir = 8
 	},
 /area/Scrapyard/outdoors/colony_streets/north_west_street)
 "xdF" = (
@@ -60738,9 +61021,6 @@
 /area/Scrapyard/indoors/club/elevators)
 "xgB" = (
 /obj/structure/surface/table/almayer,
-/obj/item/handcuffs{
-	pixel_y = 6
-	},
 /obj/item/clothing/head/helmet/riot{
 	pixel_y = -3
 	},
@@ -60772,7 +61052,7 @@
 /obj/structure/platform_decoration{
 	dir = 4
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "xhP" = (
 /obj/structure/machinery/camera/autoname{
@@ -61446,7 +61726,7 @@
 /obj/structure/filtration/coagulation{
 	icon_state = "6,1"
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "xty" = (
 /obj/structure/bed,
@@ -61701,7 +61981,9 @@
 	icon_state = "S"
 	},
 /obj/structure/barricade/handrail/wire,
-/turf/open/floor/lava,
+/turf/open/gm/lava/single_end{
+	dir = 4
+	},
 /area/Scrapyard/indoors/sw_diamond/pump)
 "xAc" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -61848,10 +62130,6 @@
 "xBQ" = (
 /obj/item/toy/prize/mauler{
 	pixel_y = -10
-	},
-/obj/item/handcuffs/cable/cyan{
-	pixel_x = 2;
-	pixel_y = 20
 	},
 /turf/open/floor{
 	icon_state = "whitegreencorner";
@@ -62052,9 +62330,6 @@
 /obj/structure/blocker/forcefield/vehicles,
 /turf/closed/wall/scrapyard/reinforced,
 /area/Scrapyard/indoors/salvage/prep)
-"xHd" = (
-/turf/open/floor/lava/single_middle,
-/area/Scrapyard/indoors/misc/TWEcamp)
 "xHj" = (
 /obj/structure/disposalpipe/down{
 	dir = 8
@@ -62406,11 +62681,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/grass,
 /area/Scrapyard/indoors/chow/admin)
-"xPE" = (
-/turf/open/floor/lava/side{
-	dir = 8
-	},
-/area/Scrapyard/oob)
 "xPI" = (
 /obj/structure/foamed_metal,
 /obj/structure/machinery/light,
@@ -62593,7 +62863,7 @@
 /turf/open/floor/light/broken/yellow,
 /area/Scrapyard/indoors/club)
 "xTj" = (
-/turf/open/floor/lava/corner,
+/turf/open/gm/lava/corner,
 /area/Scrapyard/outdoors/colony_streets/south_west_street)
 "xTB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -62663,7 +62933,7 @@
 /obj/structure/platform_decoration{
 	dir = 5
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit5)
 "xUr" = (
 /obj/structure/machinery/alarm{
@@ -62812,7 +63082,7 @@
 /obj/structure/platform_decoration{
 	dir = 10
 	},
-/turf/open/floor/lava,
+/turf/open/gm/lava,
 /area/Scrapyard/outdoors/colony_streets/lavapit3)
 "xWW" = (
 /obj/structure/closet/secure_closet,
@@ -63196,6 +63466,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/Scrapyard/outside/telecomm2)
+"ydO" = (
+/turf/open/gm/lava/side,
+/area/Scrapyard/indoors/s_diamond/pumpcontrol)
 "ydP" = (
 /obj/structure/cargo_container/hd/right,
 /obj/effect/decal/cleanable/dirt,
@@ -63446,6 +63719,11 @@
 	opacity = 0
 	},
 /area/Scrapyard/outside/telecomm2)
+"yin" = (
+/turf/open/gm/lava/lpiece{
+	dir = 8
+	},
+/area/Scrapyard/outdoors/colony_streets/lavapit1)
 "yiz" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/item/storage/box/cups{
@@ -64255,7 +64533,7 @@ bDJ
 bDJ
 khc
 tmv
-cPC
+dNl
 cPC
 bDJ
 bDJ
@@ -64284,9 +64562,9 @@ cgL
 cgL
 rto
 bDJ
-xTj
-fyu
-sss
+rGd
+rGd
+rGd
 bDJ
 bDJ
 bDJ
@@ -64512,8 +64790,8 @@ bDJ
 bDJ
 khc
 khc
-khc
-mvf
+tmv
+cPC
 nSA
 vUS
 xoI
@@ -64542,10 +64820,10 @@ rto
 cgL
 cgL
 rto
-fPg
-nNx
-rto
-fPg
+pWa
+cKh
+cKh
+cKh
 nNx
 bDJ
 bDJ
@@ -64770,8 +65048,8 @@ bDJ
 bDJ
 khc
 tmv
+dNl
 cPC
-mvf
 pxe
 uzF
 nSA
@@ -65069,7 +65347,7 @@ rto
 rto
 rto
 rto
-oRl
+ePV
 bDJ
 bDJ
 bDJ
@@ -65328,7 +65606,7 @@ rto
 rto
 rto
 rto
-sjY
+ePV
 bDJ
 bDJ
 bDJ
@@ -65847,7 +66125,7 @@ rto
 rto
 rto
 hIe
-sjY
+ePV
 bDJ
 bDJ
 bDJ
@@ -66064,7 +66342,7 @@ ymb
 bDJ
 bDJ
 bDJ
-xHd
+uJg
 oOB
 kZK
 bDJ
@@ -66105,8 +66383,8 @@ rto
 rto
 rto
 rto
-oRl
-mbX
+iGk
+pXj
 rGd
 bDJ
 bDJ
@@ -66323,7 +66601,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-cvB
+cPC
 asC
 pSK
 jsA
@@ -68157,7 +68435,7 @@ rto
 bDJ
 bDJ
 bDJ
-szC
+iGk
 bDJ
 bDJ
 bDJ
@@ -68417,7 +68695,7 @@ rto
 bDJ
 bDJ
 fPg
-mnV
+nNx
 bDJ
 bDJ
 bDJ
@@ -68844,7 +69122,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-wCR
+uBL
 wCR
 bDJ
 wCR
@@ -70400,7 +70678,7 @@ wCR
 wCR
 wCR
 wCR
-wCR
+rma
 bDJ
 bDJ
 bDJ
@@ -70659,7 +70937,7 @@ wCR
 wCR
 wCR
 wCR
-wCR
+dQS
 jvT
 bDJ
 bDJ
@@ -71174,8 +71452,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-wCR
-wCR
+rma
+cYO
 wCR
 wCR
 oxU
@@ -73918,7 +74196,7 @@ dIz
 sWT
 wcu
 vGd
-uPx
+sME
 fLK
 sWJ
 oXo
@@ -74180,7 +74458,7 @@ aAu
 fLK
 aIU
 fLK
-qJA
+cVl
 oXo
 nvO
 oXo
@@ -74436,8 +74714,8 @@ awC
 sWT
 wcu
 oXo
-qJA
-qJA
+fBu
+nKP
 fLK
 fLK
 aAu
@@ -74953,7 +75231,7 @@ woA
 tuz
 lwB
 wcu
-qJA
+cVl
 uXV
 rrE
 oXo
@@ -75683,7 +75961,7 @@ bDJ
 bDJ
 rto
 rto
-oRl
+iGk
 bDJ
 bDJ
 bDJ
@@ -75941,8 +76219,8 @@ dWc
 bDJ
 bDJ
 bDJ
-oRl
-mbX
+iGk
+pXj
 bDJ
 bDJ
 bDJ
@@ -76452,9 +76730,9 @@ bDJ
 bDJ
 fPg
 gNp
-fyu
-fyu
-fyu
+cKh
+cKh
+cKh
 nNx
 bDJ
 bDJ
@@ -76488,7 +76766,7 @@ rto
 rto
 rto
 rto
-rGd
+iGk
 rGd
 bDJ
 jDV
@@ -76746,8 +77024,8 @@ rnl
 rto
 rto
 rto
-rGd
-rGd
+iGk
+pXj
 bDJ
 bDJ
 jDV
@@ -77005,7 +77283,7 @@ rnl
 bDJ
 bDJ
 rto
-rGd
+ePV
 rGd
 rGd
 bDJ
@@ -77263,8 +77541,8 @@ vCC
 bDJ
 bDJ
 bDJ
-rGd
-rGd
+iGk
+pXj
 rGd
 rGd
 bDJ
@@ -77522,7 +77800,7 @@ vCC
 bDJ
 bDJ
 bDJ
-rGd
+pXj
 rGd
 gFJ
 rGd
@@ -80081,7 +80359,7 @@ rto
 rto
 rto
 rto
-oRl
+iGk
 bDJ
 bDJ
 bDJ
@@ -80339,8 +80617,8 @@ rto
 rto
 rto
 rto
-oRl
-mbX
+iGk
+pXj
 bDJ
 bDJ
 bDJ
@@ -81422,7 +81700,7 @@ bDJ
 bDJ
 bDJ
 ffR
-dJF
+wGo
 bDJ
 bDJ
 jbW
@@ -81443,7 +81721,7 @@ djj
 djj
 djj
 bDJ
-vTy
+iMN
 vTy
 djj
 djj
@@ -81681,7 +81959,7 @@ bDJ
 bDJ
 mIl
 sYe
-omx
+azU
 bDJ
 bDJ
 djj
@@ -81702,8 +81980,8 @@ djj
 djj
 ukE
 uVK
-vTy
-vTy
+lBp
+mKH
 vTy
 djj
 djj
@@ -81940,8 +82218,8 @@ bDJ
 mIl
 mIl
 mIl
-qdi
-gKW
+aJb
+uvk
 bDJ
 bDJ
 jbW
@@ -81959,11 +82237,11 @@ dAZ
 djj
 djj
 peq
-oRF
-vTy
-vTy
-vTy
-vTy
+lBp
+dnA
+jzJ
+aeG
+ech
 uVK
 uVK
 bDJ
@@ -82199,8 +82477,8 @@ mIl
 mIl
 mIl
 mIl
-qdi
-gKW
+aJb
+uvk
 bDJ
 bDJ
 jbW
@@ -82219,7 +82497,7 @@ paD
 wpx
 paD
 gbq
-vlB
+rbt
 gOd
 vlB
 uVK
@@ -82458,8 +82736,8 @@ mIl
 mIl
 mIl
 ffR
-dJF
-gKW
+wGo
+uvk
 bDJ
 djj
 djj
@@ -82716,7 +82994,7 @@ mIl
 bDJ
 bDJ
 mIl
-sYe
+kcu
 bDJ
 bDJ
 djj
@@ -83736,7 +84014,7 @@ wKP
 bDJ
 bDJ
 bDJ
-fkL
+uvk
 bDJ
 bDJ
 mIl
@@ -83995,7 +84273,7 @@ wKP
 wKP
 bDJ
 gKW
-ftV
+azU
 fkL
 bDJ
 mIl
@@ -84254,7 +84532,7 @@ wKP
 wKP
 wKP
 bDJ
-ogM
+sYe
 bkc
 mIl
 mIl
@@ -86443,7 +86721,7 @@ iYY
 bDJ
 bDJ
 bDJ
-fLm
+kHK
 qJo
 vSQ
 lFA
@@ -86700,10 +86978,10 @@ bDJ
 bDJ
 iYY
 bDJ
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
 qJo
 tvc
 vSQ
@@ -86958,13 +87236,13 @@ bDJ
 bDJ
 bDJ
 iYY
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 gQd
 kgU
 kgU
@@ -87062,7 +87340,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-kDk
+bDJ
 iDQ
 bDJ
 bDJ
@@ -87215,15 +87493,15 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
+kHK
 lNq
-fLm
+kHK
 hvK
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
 qJo
 vSQ
 kgU
@@ -87474,16 +87752,16 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
+kHK
 lNq
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 bDJ
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
 qJo
 vSQ
 kgU
@@ -87732,18 +88010,18 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
+kHK
+kHK
 lNq
-fLm
-fLm
-fLm
-jhM
-fLm
+kHK
+kHK
+kHK
+bDJ
+kHK
 wum
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 qJo
 ghW
 kgU
@@ -87990,20 +88268,20 @@ wSE
 wSE
 bDJ
 bDJ
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 lNq
+kHK
+hIL
+hAL
+hAL
 fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
 qJo
 vSQ
 wIQ
@@ -88250,20 +88528,20 @@ wSE
 kOE
 rHq
 ucv
-fLm
-fLm
+kHK
+kHK
 lNq
-fLm
-fLm
+kHK
+wXV
 xXM
 xXM
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+pSM
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 qJo
 vSQ
 wIQ
@@ -88510,20 +88788,20 @@ kOE
 kOE
 rHq
 ucv
-fLm
+kHK
 lNq
-fLm
-fLm
-fLm
+kHK
+tJB
+gDA
 xXM
-fLm
-fLm
-fLm
-fLm
-fLm
+pSM
+kHK
+kHK
+kHK
+kHK
 bDJ
-fLm
-fLm
+kHK
+kHK
 qJo
 vSQ
 wIQ
@@ -88771,19 +89049,19 @@ kOE
 rHq
 ucv
 lNq
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+tJB
+aad
+oHg
+kHK
+kHK
+kHK
 bDJ
 bDJ
 bDJ
-fLm
-fLm
+kHK
+kHK
 qJo
 vSQ
 wIQ
@@ -89030,20 +89308,20 @@ kOE
 kOE
 rHq
 fnw
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
 bDJ
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 qJo
 vSQ
 wIQ
@@ -89290,20 +89568,20 @@ kOE
 kOE
 aQR
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
 bDJ
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 qJo
 vSQ
 bDJ
@@ -89550,19 +89828,19 @@ kOE
 cmo
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
 hvK
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+hIL
+hAL
 fLm
 gQd
 bDJ
@@ -89591,7 +89869,7 @@ nwx
 nwx
 dWz
 nwx
-kQe
+mCX
 nwx
 nwx
 nwx
@@ -89727,8 +90005,8 @@ ixS
 xxv
 hki
 dMW
-hjN
-hKQ
+eKk
+srM
 ecP
 tuh
 oGS
@@ -89810,19 +90088,19 @@ cmo
 kOE
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
-fLm
+yin
 gQd
 hOH
 ooR
@@ -89986,10 +90264,10 @@ xxv
 xxv
 soQ
 xkG
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 lXL
 rAZ
@@ -90070,19 +90348,19 @@ kOE
 kOE
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
 xXM
-gQd
+ofL
 hOH
 fec
 bvR
@@ -90245,10 +90523,10 @@ xxv
 xxv
 rbT
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 sFb
 mKl
 kzt
@@ -90330,16 +90608,16 @@ hLo
 hLo
 juc
 rZH
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
+jHa
+jHa
+jHa
+jHa
+jHa
+jHa
+jHa
+jHa
+iza
+ffH
 iuL
 usi
 onM
@@ -90504,10 +90782,10 @@ kfC
 sBz
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 kDa
@@ -90519,7 +90797,7 @@ xjt
 cVC
 uEz
 ndw
-hKQ
+cOr
 gDL
 hEi
 oGS
@@ -90590,17 +90868,17 @@ xGY
 xGY
 iGp
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
-gQd
+ofL
 hOH
 vno
 ooR
@@ -90763,10 +91041,10 @@ xxv
 wpL
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 kDa
@@ -90778,8 +91056,8 @@ bXY
 eho
 uEz
 ndw
-hKQ
-hKQ
+ydO
+oze
 ndw
 oGS
 oJc
@@ -90850,16 +91128,16 @@ xGY
 xGY
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
-gQd
+ofL
 hOH
 aFl
 aFl
@@ -90985,8 +91263,8 @@ qYv
 mIl
 bDJ
 bDJ
-gKW
-gKW
+uvk
+uvk
 bDJ
 bDJ
 mIl
@@ -91022,10 +91300,10 @@ xxv
 xxv
 hki
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 jGs
@@ -91037,8 +91315,8 @@ xxv
 eho
 had
 hEi
-ndw
-hKQ
+nmR
+sJf
 hKQ
 oGS
 ung
@@ -91110,15 +91388,15 @@ xGY
 xGY
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+tJB
+aad
+deT
 hOH
 jfQ
 jAV
@@ -91244,8 +91522,8 @@ qYv
 mIl
 bDJ
 bDJ
-gKW
-ogM
+uvk
+fkL
 bkc
 mIl
 mIl
@@ -91281,10 +91559,10 @@ kfC
 sBz
 hki
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 xxv
@@ -91370,14 +91648,14 @@ xGY
 xGY
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 hOH
 bdd
 lAL
@@ -91540,10 +91818,10 @@ xxv
 xgw
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 ndw
@@ -91630,13 +91908,13 @@ xGY
 xGY
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 hOH
 nlE
 erm
@@ -91799,10 +92077,10 @@ xxv
 xxv
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 bgG
@@ -91890,12 +92168,12 @@ xGY
 xGY
 rHq
 ucv
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 hOH
 gRx
 ooR
@@ -92058,10 +92336,10 @@ gdN
 xxv
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 bYj
@@ -92150,11 +92428,11 @@ fdU
 qJz
 rHq
 ucv
-fLm
+kHK
 hvK
-fLm
-fLm
-gQd
+kHK
+kHK
+deT
 rNC
 xWS
 utY
@@ -92409,11 +92687,11 @@ fdU
 qJz
 qJz
 cqv
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+deT
 fYO
 utY
 dBP
@@ -92668,11 +92946,11 @@ fdU
 qJz
 vcN
 goO
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 wJx
-gQd
+deT
 eKf
 iOh
 oII
@@ -92926,12 +93204,12 @@ xGY
 xGY
 gfR
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+hIL
+eTa
 fYO
 utY
 utY
@@ -92955,7 +93233,7 @@ aqS
 xWS
 ulY
 yav
-cwH
+eRT
 ooR
 aFl
 aFl
@@ -93184,12 +93462,12 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+tJB
 bDJ
 bDJ
 oII
@@ -93353,9 +93631,9 @@ xxv
 eiV
 hki
 dMW
-hjN
-hKQ
-hKQ
+eKk
+srM
+srM
 tuh
 sFb
 lXL
@@ -93442,12 +93720,12 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
 bDJ
 bDJ
@@ -93612,10 +93890,10 @@ xxv
 xxv
 hki
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 lXL
 kDa
@@ -93628,7 +93906,7 @@ rAZ
 uEz
 qFR
 ndw
-hKQ
+fSx
 ndw
 oGS
 pYm
@@ -93700,14 +93978,14 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
-fLm
+kHK
 bDJ
 bDJ
 bDJ
@@ -93871,10 +94149,10 @@ xxv
 xxv
 hki
 xkG
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 lXL
 jgK
@@ -93886,7 +94164,7 @@ bbL
 ihi
 djj
 ndw
-hKQ
+fSx
 gDL
 bbL
 oGS
@@ -93958,15 +94236,15 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
 bDJ
-fLm
+kHK
 bDJ
 jLJ
 oII
@@ -94130,10 +94408,10 @@ ixS
 xxv
 uOQ
 dMW
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 oGS
 mKl
 kzt
@@ -94216,17 +94494,17 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
 bDJ
-fLm
-gQd
+kHK
+rqi
 fYO
 oII
 irx
@@ -94474,18 +94752,18 @@ xGY
 xGY
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 fYO
 oII
 oII
@@ -94732,19 +95010,19 @@ kOE
 kOE
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-joC
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+hvK
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 kMP
 oII
 bDJ
@@ -94990,20 +95268,20 @@ kOE
 kOE
 vcN
 goO
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-gQd
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+deT
 fYO
 oII
 oII
@@ -95248,21 +95526,21 @@ hLo
 hLo
 qrF
 bDL
-ndD
-ndD
-ndD
-ndD
+jHa
+jHa
+jHa
+jHa
 npt
 npt
 npt
+jHa
+jHa
+jHa
+jHa
+jHa
+jHa
 ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-ndD
-usi
+jWP
 xrU
 gPX
 oUI
@@ -95423,12 +95701,12 @@ xxv
 xxv
 uHb
 nTR
-hKQ
-hKQ
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
+srM
+srM
 tuh
 oGS
 mKl
@@ -95506,21 +95784,21 @@ kOE
 kOE
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+hIL
+hAL
+qNW
 mhP
 pQB
 lAL
@@ -95681,14 +95959,14 @@ dKt
 xxv
 xxv
 xxv
-pck
-hKQ
-hKQ
-hKQ
-hKQ
-hKQ
-hKQ
-hKQ
+hPe
+srM
+srM
+srM
+srM
+srM
+srM
+srM
 sFb
 mKl
 kDa
@@ -95700,7 +95978,7 @@ hKQ
 pUr
 pUr
 ndw
-hKQ
+fSx
 ndw
 gDL
 oGS
@@ -95764,20 +96042,20 @@ kOE
 kOE
 vcN
 goO
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
 oRr
 tGn
@@ -95941,12 +96219,12 @@ ixS
 xxv
 xxv
 tHv
-hKQ
-hKQ
-hKQ
-hKQ
+srM
+srM
+srM
+srM
 pxE
-hKQ
+srM
 xsX
 oGS
 mKl
@@ -95958,7 +96236,7 @@ fvV
 fUE
 juj
 pUr
-hKQ
+fSx
 ndw
 gDL
 boX
@@ -96022,21 +96300,21 @@ wSE
 kOE
 vcN
 goO
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 hvK
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 oRr
 avr
 ePZ
@@ -96160,8 +96438,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-ffR
-fkL
+nmc
+iAt
 mIl
 mIl
 mIl
@@ -96176,7 +96454,7 @@ mIl
 bDJ
 bDJ
 hMN
-fkL
+azU
 bDJ
 iYY
 bDJ
@@ -96280,23 +96558,23 @@ geL
 wSE
 wlA
 goO
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+hIL
+hAL
 fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
 qCA
-avr
+wtk
 ePZ
 ePZ
 pjI
@@ -96418,8 +96696,8 @@ ikh
 ikh
 bDJ
 bDJ
-ffR
-vJb
+uvk
+fkL
 bkc
 mIl
 mIl
@@ -96435,7 +96713,7 @@ mIl
 mIl
 mIl
 rDW
-mkX
+sYe
 bDJ
 iYY
 bDJ
@@ -96540,21 +96818,21 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+wXV
 xXM
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-qCA
-avr
+pSM
+hIL
+hAL
+hAL
+hAL
+hAL
+iex
+lhK
 ePZ
 ePZ
 voM
@@ -96677,8 +96955,8 @@ ikh
 ikh
 ikh
 bDJ
-sYe
-bkc
+uvk
+eoa
 bDJ
 mIl
 mIl
@@ -96799,15 +97077,15 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
+kHK
+kHK
+tJB
+aad
+oHg
+wXV
 xXM
 xXM
 xXM
@@ -97059,18 +97337,18 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-qCA
-avr
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+tJB
+aad
+aad
+vXi
+wtk
 ePZ
 ePZ
 pjI
@@ -97249,7 +97527,7 @@ qhw
 djj
 pCy
 bDp
-cwY
+xxv
 itR
 wTA
 lFI
@@ -97319,16 +97597,16 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-fLm
-qCA
-avr
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+kHK
+jtW
+lhK
 grU
 ePZ
 pjI
@@ -97579,14 +97857,14 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-fLm
+kHK
+kHK
+kHK
 bDJ
-fLm
-fLm
-qCA
-avr
+kHK
+kHK
+jtW
+lhK
 grU
 grU
 hao
@@ -97842,9 +98120,9 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-qCA
-avr
+kHK
+jtW
+lhK
 grU
 grU
 hao
@@ -98100,9 +98378,9 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-fLm
-gQd
+kHK
+hIL
+eTa
 hxY
 grU
 hao
@@ -98261,7 +98539,7 @@ mIl
 mIl
 mIl
 bDJ
-mkX
+aJb
 bDJ
 bDJ
 bDJ
@@ -98358,8 +98636,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLm
-qCA
+kHK
+jtW
 lmV
 tGn
 hxY
@@ -98461,8 +98739,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-nRJ
-raj
+enM
+enM
 bDJ
 bDJ
 qwG
@@ -98617,8 +98895,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-qCA
-avr
+fHS
+lhK
 hVT
 uKU
 hVT
@@ -99337,8 +99615,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-rxf
-nzx
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -99593,11 +99871,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-rxf
-doa
-wSY
-xPE
-odv
+enM
+enM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -99851,12 +100129,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-nRJ
-iPm
-odv
+enM
+enM
+enM
 bDJ
 bDJ
-gey
+enM
 bDJ
 bDJ
 bDJ
@@ -100111,11 +100389,11 @@ bDJ
 bDJ
 enM
 bDJ
-gIs
-odv
+enM
+enM
 bDJ
 bDJ
-gey
+enM
 bDJ
 bDJ
 bDJ
@@ -100369,12 +100647,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-jpH
+enM
 bDJ
-gey
+enM
 bDJ
-rxf
-ugM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -100626,13 +100904,13 @@ bDJ
 bDJ
 bDJ
 bDJ
-nRJ
-doa
-odv
+enM
+enM
+enM
 bDJ
-xae
-doa
-ugM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -100884,13 +101162,13 @@ bDJ
 bDJ
 bDJ
 bDJ
-jpH
-bDJ
-xae
 enM
-doa
-rKp
-ugM
+bDJ
+enM
+enM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -101143,12 +101421,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-gey
+enM
 bDJ
-xae
 enM
 enM
-odv
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -101402,12 +101680,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-xae
-doa
-vgf
 enM
-rKp
-ugM
+enM
+enM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -101624,8 +101902,8 @@ vFv
 vFv
 mIl
 mIl
-kJa
-pbC
+ffR
+wGo
 bDJ
 bDJ
 bDJ
@@ -101661,11 +101939,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-xae
 enM
 enM
-rKp
-ugM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -101919,11 +102197,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-rxf
-vgf
 enM
 enM
-odv
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -102177,12 +102455,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-nRJ
-iPm
+enM
+enM
 bDJ
 enM
 bDJ
-odv
+enM
 bDJ
 bDJ
 bDJ
@@ -102437,11 +102715,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-xae
 enM
 enM
-rKp
-ugM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -102695,11 +102973,11 @@ cxd
 bDJ
 bDJ
 bDJ
-nRJ
-iPm
 enM
 enM
-odv
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -102955,10 +103233,10 @@ bDJ
 bDJ
 bDJ
 bDJ
-xae
 enM
 enM
-odv
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -103214,10 +103492,10 @@ cxd
 bDJ
 bDJ
 bDJ
-gIs
-nLn
-xPE
-ugM
+enM
+enM
+enM
+enM
 bDJ
 bDJ
 bDJ
@@ -103474,7 +103752,7 @@ cxd
 bDJ
 bDJ
 bDJ
-gey
+enM
 bDJ
 bDJ
 bDJ
@@ -103733,7 +104011,7 @@ cxd
 bDJ
 bDJ
 bDJ
-pKq
+enM
 bDJ
 bDJ
 bDJ
@@ -104186,9 +104464,9 @@ aLg
 aLg
 bDJ
 bDJ
-ffR
-rxC
-fkL
+uvk
+nmc
+iAt
 bDJ
 bDJ
 bDJ
@@ -104371,7 +104649,7 @@ fGl
 fGl
 fGl
 fGl
-esw
+fGl
 fGl
 iOA
 pLK
@@ -104444,10 +104722,10 @@ aLg
 aLg
 bDJ
 bDJ
-ffR
-dJF
-gKW
-azU
+uvk
+uvk
+uvk
+eoa
 mIl
 bDJ
 bDJ
@@ -104703,9 +104981,9 @@ aLg
 bDJ
 bDJ
 bDJ
-qdi
-ogM
-iHi
+uvk
+fkL
+gKW
 bkc
 mIl
 mIl
@@ -104962,8 +105240,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-sYe
-azU
+uvk
+eoa
 mIl
 mIl
 mIl
@@ -105047,9 +105325,9 @@ bDJ
 enM
 bDJ
 bDJ
-fLl
-fLl
-fLl
+tmc
+tmc
+tmc
 bDJ
 bDJ
 bDJ
@@ -105222,7 +105500,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-mkX
+kcu
 mIl
 mIl
 mIl
@@ -105259,7 +105537,7 @@ bDJ
 jDV
 jDV
 jDV
-qJA
+fVb
 wfg
 glb
 xcf
@@ -105305,10 +105583,10 @@ bDJ
 bDJ
 enM
 bDJ
-fLl
-fLl
-fLl
-fLl
+tmc
+tmc
+tmc
+tmc
 fLl
 lVo
 bDJ
@@ -105517,9 +105795,9 @@ bDJ
 jDV
 jDV
 jDV
-qJA
-qJA
-xzV
+fVb
+kul
+doX
 mLT
 eqs
 eBP
@@ -105565,11 +105843,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLl
-fLl
-fLl
-fLl
-lVo
+tmc
+tmc
+tmc
+tmc
+vqp
 rrA
 bDJ
 hCb
@@ -105776,9 +106054,9 @@ sIy
 sIy
 sIy
 sIy
-qJA
-qJA
-xzV
+diG
+tcZ
+bwO
 eBP
 eqs
 eBP
@@ -105822,13 +106100,13 @@ bDJ
 (164,1,1) = {"
 bDJ
 bDJ
-fLl
+tmc
 bDJ
-fLl
-fLl
-fLl
-fLl
-lVo
+tmc
+tmc
+tmc
+tmc
+vqp
 iLi
 hCb
 hCb
@@ -106036,7 +106314,7 @@ sIy
 sIy
 sIy
 tIh
-qJA
+fDZ
 cSY
 eBP
 eqs
@@ -106080,14 +106358,14 @@ bDJ
 "}
 (165,1,1) = {"
 bDJ
-fLl
-fLl
-fLl
-fLl
+tmc
+tmc
+tmc
+tmc
 itr
-fLl
-fLl
-lVo
+tmc
+tmc
+vqp
 hCb
 hCb
 hCb
@@ -106267,7 +106545,7 @@ mIl
 cOC
 rDW
 ffR
-fkL
+iAt
 iYY
 bDJ
 bDJ
@@ -106294,8 +106572,8 @@ sIy
 isw
 ycp
 beL
-qJA
-qJA
+diG
+fDZ
 kHi
 gcw
 gxI
@@ -106341,12 +106619,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLl
-fLl
-fLl
-fLl
-fLl
-lVo
+tmc
+tmc
+tmc
+tmc
+tmc
+vqp
 hCb
 iLi
 iLi
@@ -106525,7 +106803,7 @@ fms
 bDJ
 bDJ
 iYY
-dJF
+sYe
 bDJ
 iYY
 bDJ
@@ -106553,9 +106831,9 @@ fyz
 cyI
 cyI
 beL
-qJA
-qJA
-wfg
+diG
+cgd
+idw
 hwy
 cuJ
 dbT
@@ -106600,12 +106878,12 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLl
-fLl
-fLl
-fLl
-fLl
-lVo
+tmc
+tmc
+tmc
+tmc
+tmc
+vqp
 rrA
 iLi
 hCb
@@ -106812,7 +107090,7 @@ aUg
 vsn
 kLe
 beL
-qJA
+kQj
 bvC
 cSY
 eBP
@@ -106860,11 +107138,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-bDJ
-fLl
-fLl
-fLl
-lVo
+tmc
+tmc
+tmc
+tmc
+vqp
 rrA
 hCb
 hCb
@@ -106998,8 +107276,8 @@ qxW
 qxW
 qxW
 qxW
-dqi
-cQK
+qjz
+aiD
 qrT
 bDJ
 bDJ
@@ -107121,9 +107399,9 @@ bDJ
 bDJ
 bDJ
 bDJ
-fLl
+tmc
 bDJ
-lVo
+rFX
 hCb
 iLi
 iLi
@@ -107257,12 +107535,12 @@ qxW
 qxW
 qxW
 qxW
-joq
+pPP
 qrT
 qrT
 qrT
 bDJ
-bbc
+vAe
 bDJ
 qxW
 qxW
@@ -107517,11 +107795,11 @@ qxW
 qxW
 qxW
 uvN
-tXd
+tRT
 qrT
 qrT
 bDJ
-bbc
+mwa
 bDJ
 qxW
 eFM
@@ -107641,7 +107919,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-lVo
+wNV
 iLi
 iLi
 hCb
@@ -107776,12 +108054,12 @@ qxW
 qxW
 bDJ
 bDJ
-joq
+aiD
 qrT
 bDJ
 bDJ
-kaK
-cqs
+mix
+mxt
 qxW
 qxW
 qxW
@@ -107806,8 +108084,8 @@ bDJ
 bDJ
 qxW
 qxW
-dqi
-cqs
+qjz
+mxt
 qxW
 qxW
 bDJ
@@ -108041,7 +108319,7 @@ bDJ
 qrT
 qrT
 beX
-bMo
+cqs
 qxW
 qxW
 qxW
@@ -108299,7 +108577,7 @@ bDJ
 qrT
 qrT
 tlo
-ojW
+tXd
 qxW
 qxW
 qxW
@@ -108556,8 +108834,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-qrT
-bbc
+tlo
+tXd
 bDJ
 bDJ
 qxW
@@ -109097,7 +109375,7 @@ qxW
 qxW
 qxW
 qxW
-qjz
+vAe
 qxW
 qxW
 qxW
@@ -109355,9 +109633,9 @@ bDJ
 qxW
 qxW
 qxW
-dqi
-aiD
-cqs
+qjz
+mix
+mxt
 qxW
 qxW
 qxW
@@ -109613,8 +109891,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-dqi
-cQK
+qjz
+aiD
 qrT
 bbc
 qxW
@@ -109872,11 +110150,11 @@ bDJ
 bDJ
 bDJ
 bDJ
-cQK
+aiD
 qrT
 qrT
-kaK
-cqs
+ryQ
+mxt
 qxW
 bDJ
 bDJ
@@ -109926,9 +110204,9 @@ fLK
 cGw
 nvO
 kGL
-qJA
-qJA
-qJA
+dWh
+cKu
+nKP
 fLK
 uCN
 oFg
@@ -110184,8 +110462,8 @@ saQ
 fLK
 tVJ
 nvO
-qJA
-qJA
+diG
+jaN
 fLK
 fLK
 qJA
@@ -110443,11 +110721,11 @@ gPP
 lAq
 oXo
 nvO
-qJA
+rdl
 fLK
 aAu
 eLW
-qJA
+rdl
 oXo
 oFg
 jlk
@@ -110702,11 +110980,11 @@ xtO
 enp
 fLK
 nvO
-qJA
+rdl
 fLK
 fLK
-tWD
-qJA
+ayF
+jaN
 oXo
 oFg
 jlk
@@ -110961,10 +111239,10 @@ sXF
 oXo
 oXo
 nvO
-qJA
-qJA
-qJA
-tWD
+vai
+cKu
+dWh
+jGZ
 oXo
 oXo
 oFg
@@ -111222,8 +111500,8 @@ qjI
 nvO
 gPU
 fLK
-rMf
-tWD
+cbD
+eud
 rMf
 dYF
 oFg
@@ -111740,10 +112018,10 @@ obq
 nvO
 vGd
 uXV
-uPx
+sME
 fLK
 uPx
-uCN
+lTp
 oFg
 jlk
 cLY
@@ -112483,7 +112761,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-qjz
+mxt
 qxW
 qjz
 bDJ
@@ -112515,8 +112793,8 @@ fLK
 oXo
 oXo
 nvO
-qJA
-qJA
+fBu
+ilF
 fLK
 sXF
 oXo
@@ -112742,7 +113020,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-aiD
+ryQ
 snl
 aiD
 bDJ
@@ -112776,7 +113054,7 @@ uXV
 nvO
 fLK
 aES
-tWD
+wBD
 oXo
 hDh
 tWD
@@ -112977,7 +113255,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-qjz
+vAe
 qxW
 qxW
 qxW
@@ -113235,8 +113513,8 @@ bDJ
 bDJ
 bDJ
 bDJ
-snl
-aiD
+qjz
+jVV
 cqs
 bDJ
 bDJ
@@ -113493,9 +113771,9 @@ qxW
 qxW
 bDJ
 bDJ
-pPP
-qrT
-qrT
+qjz
+aiD
+bbc
 bDJ
 bDJ
 bDJ
@@ -113751,7 +114029,7 @@ qxW
 qxW
 qxW
 qxW
-dqi
+qjz
 rDe
 vur
 tXd
@@ -114011,7 +114289,7 @@ qxW
 qxW
 qxW
 uvN
-ojW
+tXd
 bDJ
 bDJ
 bDJ
@@ -114263,7 +114541,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-qjz
+vAe
 qxW
 qxW
 qxW
@@ -114520,7 +114798,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-dqi
+qjz
 snl
 bbc
 qxW
@@ -115041,7 +115319,7 @@ bDJ
 pPP
 vur
 vur
-bMo
+cqs
 lSC
 lSC
 mJS
@@ -118456,7 +118734,7 @@ qQR
 qQR
 fNJ
 bDJ
-npn
+tsC
 npn
 npn
 bDJ
@@ -118715,7 +118993,7 @@ qQR
 iyl
 qQR
 qQR
-npn
+dEP
 npn
 npn
 npn
@@ -118973,8 +119251,8 @@ bDJ
 qQR
 qQR
 qQR
-npn
-npn
+vNL
+ccm
 npn
 npn
 npn
@@ -119233,7 +119511,7 @@ qQR
 qQR
 qQR
 qQR
-npn
+mbE
 bDJ
 npn
 npn
@@ -119694,7 +119972,7 @@ qxW
 bDJ
 bDJ
 bDJ
-qjz
+vAe
 qxW
 kJB
 tJD
@@ -119953,7 +120231,7 @@ bDJ
 bDJ
 bDJ
 bDJ
-aiD
+mix
 snl
 kJB
 crU
