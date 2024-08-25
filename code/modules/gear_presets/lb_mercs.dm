@@ -12,6 +12,12 @@
 	var/static/list/colors = list("BLACK" = list(15, 15, 25), "BROWN" = list(102, 51, 0), "AUBURN" = list(139, 62, 19))
 	var/static/list/hair_colors = colors.Copy() + list("BLONDE" = list(197, 164, 30), "CARROT" = list(174, 69, 42))
 	var/hair_color = pick(hair_colors)
+
+	var/obj/item/implant/basic_implant = new /obj/item/implant/dexplosive
+	basic_implant.imp_in = new_human
+	basic_implant.part = new_human.get_limb("head")
+	new_human.get_limb("head").implants += basic_implant
+
 	new_human.r_hair = hair_colors[hair_color][1]
 	new_human.g_hair = hair_colors[hair_color][2]
 	new_human.b_hair = hair_colors[hair_color][3]
