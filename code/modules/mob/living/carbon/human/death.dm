@@ -131,5 +131,9 @@
 	else if(death_data?.cause_name == "existing")
 		// Corpses spawn as gibbed true to avoid sfx, even though they aren't actually gibbed...
 		AddComponent(/datum/component/weed_food)
-	
+
 	update_execute_hud()
+
+	for (var/list/obj/limb/spec_limb in src.limbs)
+		for (var/obj/item/implant/impl in spec_limb.implants)
+			impl.on_death_trigger()

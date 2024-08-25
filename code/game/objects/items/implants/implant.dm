@@ -16,6 +16,9 @@
 /obj/item/implant/proc/trigger(emote, source as mob)
 	return
 
+/obj/item/implant/proc/on_death_trigger()
+	return
+
 /obj/item/implant/proc/activate()
 	return
 
@@ -117,6 +120,8 @@ Implant Specifics:<BR>"}
 <b>Integrity:</b> Implant will occasionally be degraded by the body's immune system and thus will occasionally malfunction."}
 	return dat
 
+/obj/item/implant/dexplosive/on_death_trigger()
+	src.activate("death")
 
 /obj/item/implant/dexplosive/trigger(emote, source as mob)
 	if(emote == "deathgasp")
@@ -126,7 +131,10 @@ Implant Specifics:<BR>"}
 
 /obj/item/implant/dexplosive/activate(cause)
 	if((!cause) || (!src.imp_in)) return 0
-	explosion(src, -1, 0, 2, 3, 0)//This might be a bit much, dono will have to see.
+
+	var/mob/T = imp_in
+	message_admins("Dexplosive implant triggered in [T] ([T.key]). [ADMIN_JMP(T)] ")
+	explosion(get_turf(T), -1, 0, 1, 6,,,, create_cause_data(cause, T))//This might be a bit much, dono will have to see.
 	if(src.imp_in)
 		src.imp_in.gib()
 
